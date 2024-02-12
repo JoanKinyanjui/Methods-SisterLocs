@@ -7,10 +7,27 @@ import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import SpecialOffer from "@/components/SpecialOffer";
 import StatsJumbotron from "@/components/StatsJumbotron";
+import Head from "next/head";
 
 export default function Home() {
   return (
 <div>
+  <Head>
+        <title>Methods Sisterlocs</title>
+        <meta name="description" content="Sisterlocs Salon in Nairobi, Kenya" />
+        <meta name="keywords" content="sisterlocs, salon, nairobi , Kenya" />
+        <meta name="author" content="Methods Sisterlocs" />
+        <meta property="og:title" content="Your Site Title - Elevate Your Web Experience" />
+        <meta property="og:description" content="Explore the world of possibilities with us. Learn more about our services and products." />
+        <meta property="og:image" content="URL-to-your-image-for-social-sharing.jpg" />
+        <meta property="og:url" content="URL-to-your-site-page" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Your Site Title - Elevate Your Web Experience" />
+        <meta name="twitter:description" content="Explore the world of possibilities with us. Learn more about our services and products." />
+        <meta name="twitter:image" content="URL-to-your-image-for-twitter.jpg" />
+        <link rel="icon" href="/favicon.ico" />
+  </Head>
    <section> 
     <Hero />
    </section>
@@ -35,7 +52,7 @@ export default function Home() {
     <StatsJumbotron />
   </section>
 
-  <section id='contactUs'> 
+  <section> 
     <ContactUs />
   </section>
 
