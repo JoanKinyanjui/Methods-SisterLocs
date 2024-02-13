@@ -7,6 +7,7 @@ module.exports = {
     black_2: '#1E0D0A',   //almost black
     gray_1: '#BDBDBD',
     gray_2: 'gainsboro',
+    gray_text:"#393e46"
   
 
   }
