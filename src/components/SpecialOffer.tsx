@@ -5,21 +5,11 @@ function SpecialOffer() {
   return (
     <div >
 
-    <div className='flex w-full relative h-[50vh] bg-[navajowhite]'>
-      <p>Special Offer</p>
-      <p>50% OFF</p>
-      <p>Rush while it still lasts</p>
-    </div>
-
-    <div className='grid w-full h-[50vh]'>
-    <div className='flex'>
-    <Image src="/images/sisterlocs1.png" alt="Special Offer" layout="fill" objectFit="cover" />
-    <Image src="/images/sisterlocs1.png" alt="Special Offer" layout="fill" objectFit="cover" />
-    </div>
-    <div className='flex'>
-    <Image src="/images/sisterlocs1.png" alt="Special Offer" layout="fill" objectFit="cover" />
-    <Image src="/images/sisterlocs1.png" alt="Special Offer" layout="fill" objectFit="cover" />
-    </div>
+    <div className='grid w-full relative py-[100px] bg-black_1 place-content-center items-center text-white font-[500] gap-1 md:gap-2'>
+      <p className='mx-auto text-[20px] md:text-[24px]'>Special Offer</p>
+      <p className='mx-auto text-gold  text-[40px] sm:text-[50px] font-[700]'>50% OFF</p>
+      <p className='mx-auto auto text-[20px] md:text-[24px]'>Rush while it still lasts</p>
+     <div className='mx-auto'> <button className='bg-[navajowhite] py-4 px-10 rounded-[5px] mt-4'>Book Now</button></div>
     </div>
 
     </div>

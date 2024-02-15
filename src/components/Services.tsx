@@ -3,7 +3,7 @@ import React from 'react'
 
 function Services() {
   return (
-    <div className='grid w-11/12 md:w-10/12 mx-auto'>
+    <div className='grid w-11/12 md:w-10/12 mx-auto '>
 
      <div className='my-2'>
     <p className='text-[20px] md:text-[24px] font-semibold text-black_1'>Our Services</p>

@@ -12,7 +12,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-<div>
+<div className="grid gap-[20px] md:gap-[50px]">
   <Head>
         <title>Methods Sisterlocs</title>
         <meta name="description" content="Sisterlocs Salon in Nairobi, Kenya" />
@@ -42,7 +42,7 @@ export default function Home() {
   </section>
 
   <section id='book' > 
-    <Book />
+    {/* <Book /> */}
   </section>
 
   <section> 
@@ -50,15 +50,15 @@ export default function Home() {
   </section>
 
   <section>
-    <StatsJumbotron />
+    {/* <StatsJumbotron /> */}
   </section>
 
   <section> 
-    <ContactUs />
+    {/* <ContactUs /> */}
   </section>
 
   <section> 
-    <Reviews />
+    {/* <Reviews /> */}
   </section>
 
   <section> 

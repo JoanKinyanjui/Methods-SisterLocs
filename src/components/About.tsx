@@ -3,7 +3,7 @@ import React from 'react';
 
 function About() {
   return (
-   <div className='py-[30px] md:py-[50px]'>
+   <div className=' '>
      <div className='hidden lg:flex md:justify-between w-full xl:w-10/12 mx-auto '>
       
       <div className='w-[40%] xl:w-1/2 items-center grid px-5 '>
