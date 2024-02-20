@@ -1,5 +1,6 @@
 "use client"
 import About from "@/components/About";
+import Availability from "@/components/Availability";
 import Book from "@/components/Book";
 import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
@@ -30,15 +31,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
   </Head>
    <section> 
-    <Hero />
+    {/* <Hero /> */}
+    {/* <Availability /> */}
    </section>
 
   <section id='about'> 
-    <About />
+    {/* <About /> */}
   </section>
 
   <section id='services' > 
-    <Services />
+    {/* <Services /> */}
   </section>
 
   <section id='book' > 
@@ -46,7 +48,7 @@ export default function Home() {
   </section>
 
   <section> 
-    <SpecialOffer />
+    {/* <SpecialOffer /> */}
   </section>
 
   <section>

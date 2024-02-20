@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
+import Card from './commons/Card';
 
 function About() {
   return (
-   <div className=' '>
-     <div className='hidden lg:flex md:justify-between w-full xl:w-10/12 mx-auto '>
+   <Card>
+     <div className='hidden lg:flex md:justify-between w-full  mx-auto '>
       
       <div className='w-[40%] xl:w-1/2 items-center grid px-5 '>
     <div>
@@ -57,7 +58,7 @@ function About() {
     </div>
  
  </div>
-   </div>
+   </Card>
 
 
     

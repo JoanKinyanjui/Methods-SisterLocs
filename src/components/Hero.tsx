@@ -4,7 +4,7 @@ import Nav from './Nav'
 
 function Hero() {
   return (
-    <div className="relative h-[50vh] sm:h-[60vh] lg:h-[75vh] w-full">
+    <div className="relative h-[50vh] sm:h-[60vh] lg:h-[75vh] w-full bg-white">
     {/* Background Image */}
     <Image src="/images/straightening.jpg" layout="fill" objectFit="cover" alt="Background" priority />
 
@@ -19,7 +19,7 @@ function Hero() {
       </div>
 
       <div className='absolute bottom-3 sm:bottom-[5%] right-0'>
-        <div className='grid gap-2'>
+        <div className='flex md:grid gap-2'>
          <Image  src='/icons/facebook.png'  width={20} height={20} alt='fb' className='md:w-[30px] md:h-[30px] '/>
          <Image  src='/icons/instagram.png'  width={20} height={20} alt='instagram' className=' md:w-[30px] md:h-[30px]'/>
          <Image  src='/icons/tiktok.png'  width={20} height={20} alt='tiktok' className=' md:w-[30px] md:h-[30px]'/>
