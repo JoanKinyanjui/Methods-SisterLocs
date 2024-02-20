@@ -1,5 +1,6 @@
 "use client"
-import { useState } from "react"
+import { useState } from "react";
+import styles from '../styles/globals.module.css'
 
 
 function Nav() {
@@ -7,7 +8,7 @@ function Nav() {
 
   return (
     <div className='flex justify-between w-11/12 md:w-10/12 mx-auto items-center h-full cursor-pointer'>
-    <div className='text-gold text-[16px] md:text-[20px] font-semibold'>Methods Sisterlocs</div>
+    <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[16px] md:text-[20px] font-semibold ${styles.TextGradient}`}>Methods Sisterlocs</div>
 
     <div className=''>
       <ul className='md:flex gap-5 hidden '>

@@ -7,7 +7,7 @@ function Services() {
 
      <div className='my-2'>
     <p className='text-[20px] md:text-[24px] font-semibold text-black_1'>Our Services</p>
-    <div className='h-1 w-[50px] bg-[navajowhite]  '></div>
+    <div className='h-1 w-[50px] bg-[navajowhite]  bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00] '></div>
     </div>
 
     <div>
@@ -16,12 +16,12 @@ function Services() {
 
      <div className="carousel carousel-center w-full py-8 space-x-4  rounded-box">
     {services.map((item)=>(
-       <div className="carousel-item relative" key={item.id}>
-       <img src={item.image} className="rounded-md" />
-       {/* <div className="absolute inset-0 rounded-md" style={{ backgroundImage: 'linear-gradient(to top, #212121,transparent,transparent)' }}></div> */}
+       <div className="carousel-item relative w-[200px] md:w-[300px] h-[280px] md:h-[400px] lg:h-[450px]" key={item.id}>
+       <img src={item.image} className="rounded-md h-full w-full" />
+       <div className="absolute inset-0 rounded-md" style={{ backgroundImage: 'linear-gradient(to top, black,transparent,transparent)' }}></div>
        <div className='absolute bottom-0 px-2 py-1'>
-        <p className='text-[14px] md:text-[17px] font-medium textwhite text-[navajowhite]'>{item.title}</p>
-        <p className='text-[12px] md:text-[14px] text-gray_text'>{item.description}</p>
+        <p className='text-[14px] md:text-[17px] font-medium text-white '>{item.title}</p>
+        <p className='text-[10px] md:text-[12px] text-white font-thin'>{item.description}</p>
        </div>
      </div> 
     ))}
