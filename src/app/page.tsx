@@ -30,39 +30,15 @@ export default function Home() {
         <meta name="twitter:image" content="URL-to-your-image-for-twitter.jpg" />
         <link rel="icon" href="/favicon.ico" />
   </Head>
-   <section> 
-    {/* <Hero /> */}
-    {/* <Availability /> */}
-   </section>
-
-  <section id='about'> 
-    {/* <About /> */}
-  </section>
-
+<section>
+  <About />  
+</section>
   <section id='services' > 
-    {/* <Services /> */}
+    <Services />
   </section>
-
-  <section id='book' > 
-    {/* <Book /> */}
-  </section>
-
-  <section> 
-    {/* <SpecialOffer /> */}
-  </section>
-
   <section>
-    {/* <StatsJumbotron /> */}
+    <SpecialOffer />
   </section>
-
-  <section> 
-    {/* <ContactUs /> */}
-  </section>
-
-  <section> 
-    {/* <Reviews /> */}
-  </section>
-
   <section> 
     <Footer />
   </section>

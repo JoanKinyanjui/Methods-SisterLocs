@@ -16,13 +16,13 @@ function Footer() {
   }
 
   return (
-    <div className='grid px-5 w-screen bg-black_1  text-[12px] md:text-[14px] text-gray_text '>
+    <div className='grid px-5  bg-black_1  text-[12px] md:text-[14px] text-gray_text '>
       <Card>
      <div className='pt-5 md:pt-0 md:py-5 grid md:flex md:justify-between justify-center gap-8 md:gap-5 md:my-10  md:items-start'>
 
       <div className='w-full md:w-1/3 grid text-start gap-2 md:gap-3 mx-auto  justify-start md:justify-center md:px-5  '>
         <p className={`${styles.TextGradien} text-white`}>Methods Sisterlocs</p>
-        <p className=' '>Contrary to popular piece of classical Latin literature from 45 BC, making it professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word ind est quis, efficitur orci. Nullam molestie turpis mi, ac sagittis arcu luctus eget. Etiam laoreet sit amet augue vel accumsan. Nunc non massa dolor</p>
+        <p className=' '>Contrary to popular piece of classical Latin consectetur, from a Lorem Ipsum passage, and going through the cites of the word ind est quis, efficitur orci. Nullam molestie turpis mi, ac sagittis arcu luctus eget. Etiam laoreet sit amet augue vel accumsan. Nunc non massa dolor</p>
        <div className='flex items-center gap-2 w-full'>
         <p className=' font-[500] '>Follow us :</p>
         <div className='flex gap-2 flex-shrink-0'>

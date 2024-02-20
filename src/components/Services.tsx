@@ -5,20 +5,20 @@ import Card from './commons/Card'
 function Services() {
   return (
    <Card>
-     <div className='grid w-full mx-auto '>
+<div className='grid w-full mx-auto text-black_1'>
 
-<div className='my-2'>
+<div className='my-2 mx-auto text-center'>
 <p className='text-[20px] md:text-[24px] font-semibold text-black_1'>Our Services</p>
-<div className='h-1 w-[50px]  bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00] '></div>
+{/* <div className='h-1 w-[50px]  bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00] '></div> */}
 </div>
 
-<div className='md:w-[50%]'>
- <p className='text-start  md:text-start text-[14px] md:text-[16px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend in risus a tincidunt. Donec pharetra est neque, a malesuada massa dignissim vitae.</p>
+<div className='md:w-[90%] mx-auto'>
+ <p className='text-center text-[14px] md:text-[16px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend in risus a tincidunt. Donec pharetra est neque, a malesuada massa dignissim vitae.</p>
 </div>
 
 <div className="carousel carousel-center w-full py-8 space-x-4  rounded-box">
 {services.map((item)=>(
-  <div className="carousel-item relative w-[200px] md:w-[300px] h-[280px] md:h-[400px] lg:h-[450px]" key={item.id}>
+  <div className="carousel-item relative w-[200px] md:w-[300px] h-[280px] md:h-[400px]" key={item.id}>
   <img src={item.image} className="rounded-md h-full w-full" />
   <div className="absolute inset-0 rounded-md" style={{ backgroundImage: 'linear-gradient(to top, black,transparent,transparent)' }}></div>
   <div className='absolute bottom-0 px-2 py-1'>
