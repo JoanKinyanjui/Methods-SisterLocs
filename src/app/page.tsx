@@ -13,7 +13,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-<div className="grid gap-[20px] md:gap-[50px]">
+<div className="grid ">
   <Head>
         <title>Methods Sisterlocs</title>
         <meta name="description" content="Sisterlocs Salon in Nairobi, Kenya" />
@@ -30,19 +30,10 @@ export default function Home() {
         <meta name="twitter:image" content="URL-to-your-image-for-twitter.jpg" />
         <link rel="icon" href="/favicon.ico" />
   </Head>
-<section>
-  <About />  
-</section>
-  <section id='services' > 
-    <Services />
-  </section>
-  <section>
-    <SpecialOffer />
-  </section>
-  <section> 
-    <Footer />
-  </section>
-  
+  <section><Hero /></section>
+  <section><Reviews /></section>
+   <section><StatsJumbotron /></section>
+   <section> <Footer /> </section>
 </div>
   );
 }
