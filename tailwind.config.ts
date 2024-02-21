@@ -11,6 +11,9 @@ const config: Config = {
   theme: {
     colors: { ...colors },
     extend: {
+      fontFamily: {
+        'frank': ["'Frank Ruhl Libre'", 'serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

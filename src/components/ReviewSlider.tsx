@@ -5,9 +5,9 @@ import styles from '../styles/globals.module.css'
 
 function ReviewSlider() {
   return (
-    <div className="carousel w-full">
+    <div className="carousel w-full  ">
   {reviewData.map((review, index) => (
-      <div id={review.slideNo} className="carousel-item relative w-full min-h-[50vh] md:min-h-[40vh]  " key={index}>
+      <div id={review.slideNo} className="carousel-item relative w-full h-[50vh]   " key={index}>
       <div className='bg-white w-[80%] sm:w-[80%] md:w-[60%] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 py-5'>
           <div>
             <Image src="https://i.pinimg.com/474x/3e/75/ea/3e75ea1eced5809aa745d0ce8c6ca7c9.jpg" alt="profile" width={70} height={70} className='mx-auto rounded-[100px] w-[70px] h-[70px]'/>

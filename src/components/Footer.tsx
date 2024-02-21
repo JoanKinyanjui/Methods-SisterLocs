@@ -16,7 +16,7 @@ function Footer() {
   }
 
   return (
-    <div className='grid px-5  bg-black_1  text-[12px] md:text-[14px] text-gray_text '>
+    <div className='grid px-5  bg-black_1  text-[12px] md:text-[14px] text-gray_text font-[Inter] '>
       <Card>
      <div className='pt-5 md:pt-0 md:py-5 grid md:flex md:justify-between justify-center gap-8 md:gap-5 md:my-10  md:items-start'>
 
