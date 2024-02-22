@@ -34,7 +34,8 @@ export default function Home() {
   </Head>
   <section><Nav /></section>
   <section><Hero /></section>
-  {/* <section><Reviews /></section> */}
+  <section><Reviews /></section>
+  <section><SpecialOffer /></section>
    <section><StatsJumbotron /></section>
    <section> <Footer /> </section>
 </div>

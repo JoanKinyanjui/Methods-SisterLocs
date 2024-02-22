@@ -8,7 +8,7 @@ import Title from './commons/Title'
 function Reviews() {
   
   return (
-    <div className='bg-[gainsboro] w-full py-5'>
+    <div className='bg-white w-full py-5'>
     <Card>
     <div className='grid '>
     <Title title='What Clients Are Saying' />

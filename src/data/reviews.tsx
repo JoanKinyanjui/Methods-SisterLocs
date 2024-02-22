@@ -13,7 +13,7 @@ export const reviewData:ReviewProps[] =[
     {
         name: "Carol Njuguna",
         image:'https://i.pinimg.com/474x/3e/75/ea/3e75ea1eced5809aa745d0ce8c6ca7c9.jpg',
-        review: "I love the service, I have been a client for 3 years now love the service, I have been a client for 3 years now  love the service, I have been a client for 3 years now and I am always satisfied. The staff is friendly and professional.",
+        review: "I love the service, I have been a client for 3 years now love the I love the service, I have been a client for 3 years now love the I love the service, I have been a client for 3 years now love the service, I have been a client for 3 years now  love the service, I have been a client for 3 years now and I am always satisfied. The staff is friendly and professional.",
         proffession: "Beautician",
         rating: 5,
         slideNo:'slide1',
@@ -24,7 +24,7 @@ export const reviewData:ReviewProps[] =[
     {
         name: "Joan Kinyanjui",
         image:'https://i.pinimg.com/474x/3e/75/ea/3e75ea1eced5809aa745d0ce8c6ca7c9.jpg',
-        review: "I love the service, I have been a client for 3 years now love the service, I have been a client for 3 years now  love the service, I have been a client for 3 years now and I am always satisfied. The staff is friendly and professional.",
+        review: "I love the service, I have been a client for 3 years now love the I love the service, I have been a client for 3 years now love the I love the service, I have been a client for 3 years now love the service, I have been a client for 3 years now  love the service, I have been a client for 3 years now and I am always satisfied. The staff is friendly and professional.",
         proffession: "Doctor",
         rating: 4,
         slideNo:'slide2',
@@ -34,7 +34,7 @@ export const reviewData:ReviewProps[] =[
     {
         name: "Stella Wanga",
         image:'https://i.pinimg.com/474x/3e/75/ea/3e75ea1eced5809aa745d0ce8c6ca7c9.jpg',
-        review: "I love the service, I have been a client for 3 years now love the service, I have been a client for 3 years now  love the service, I have been a client for 3 years now and I am always satisfied. The staff is friendly and professional.",
+        review: "I love the service, I have been a client for 3 years now love the I love the service, I have been a client for 3 years now love the I love the service, I have been a client for 3 years now love the service, I have been a client for 3 years now  love the service, I have been a client for 3 years now and I am always satisfied. The staff is friendly and professional.",
         proffession: "Business Woman",
         rating: 4,
         slideNo:'slide3',
@@ -44,7 +44,7 @@ export const reviewData:ReviewProps[] =[
     {
         name: "Mary Kibabe",
         image:'https://i.pinimg.com/474x/3e/75/ea/3e75ea1eced5809aa745d0ce8c6ca7c9.jpg',
-        review: "I love the service, I have been a client for 3 years now love the service, I have been a client for 3 years now  love the service, I have been a client for 3 years now and I am always satisfied. The staff is friendly and professional.",
+        review: "I love the service, I have been a client for 3 years now love the I love the service, I have been a client for 3 years now love the I love the service, I have been a client for 3 years now love the service, I have been a client for 3 years now  love the service, I have been a client for 3 years now and I am always satisfied. The staff is friendly and professional.",
         proffession: "Software Developer",
         rating: 5,
         slideNo:'slide4',
