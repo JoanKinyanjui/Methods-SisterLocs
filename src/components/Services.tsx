@@ -1,6 +1,7 @@
 import { services } from '@/data/services'
 import React from 'react'
 import Card from './commons/Card'
+import Title from './commons/Title'
 
 function Services() {
   return (
@@ -8,8 +9,7 @@ function Services() {
 <div className='grid w-full mx-auto text-black_1'>
 
 <div className='my-2 mx-auto text-center'>
-<p className='text-[20px] md:text-[24px] font-semibold text-black_1'>Our Services</p>
-{/* <div className='h-1 w-[50px]  bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00] '></div> */}
+  <Title title='Our Sercvices'/>
 </div>
 
 <div className='md:w-[90%] mx-auto'>

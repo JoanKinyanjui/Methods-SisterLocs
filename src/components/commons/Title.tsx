@@ -4,9 +4,12 @@ import React from 'react'
   }
 function Title({title}:TitleProps) {
   return (
-    <div className='text-[20px] md:text-[30px] text-black_1 mx-auto capitalize font-semibold py-5 font-[System]'>
+  <div className='py-5  grid  justify-center'>
+      <div className='text-[20px] md:text-[30px] text-black_1  capitalize font-semibold  font-[System]'>
       {title}
     </div>
+     <div className='h-1 w-[50px]  bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00] '></div>
+  </div>
   )
 }
 

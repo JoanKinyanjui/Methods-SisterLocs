@@ -9,7 +9,7 @@ function ReviewSlider() {
   {reviewData.map((review, index) => (
       <div id={review.slideNo} className="carousel-item relative w-full h-[40vh]   " key={index}>
 
-      <div className='w-[80%] sm:w-[80%] md:w-[60%] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-lg py-5 px-4'>
+      <div className='w-[80%] sm:w-[80%] md:w-[60%] bg-white rounded-md absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-lg py-5 px-4'>
           <div>
             <Image src="https://i.pinimg.com/474x/3e/75/ea/3e75ea1eced5809aa745d0ce8c6ca7c9.jpg" alt="profile" width={70} height={70} className='mx-auto rounded-[1000px] w-[80px] h-[80px] md:w-[100px] md:h-[100px]'/>
             <div className='grid justify-center py-2'>
