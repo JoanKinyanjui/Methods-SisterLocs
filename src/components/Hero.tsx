@@ -16,7 +16,7 @@ function Hero() {
   <div className='w-11/12 md:w-[80%] xl:w-[70%] py-5 md:pt-10 md:py-0 z-30'>
   <div className=' relative grid gap-5 md:gap-0'>
   <div className='flex mx-auto md:mr-0 w-full md:w-1/2 lg:w-[50%] justify-center md:justify-end'>
-    <Image src='/images/background0.png' alt='' width={250} height={200} className='rounded-full sm:w-[400px] sm:h-[400px] md:w-[100%] xl:w-[90%] md:h-auto flex-shrink-0 flex-grow-0'/>
+    <Image src='/images/background0.png' alt='' width={200} height={150} className='rounded-full  sm:w-[400px] sm:h-[400px] md:w-[100%] xl:w-[90%] md:h-auto flex-shrink-0 flex-grow-0'/>
   </div>
 
   <div className='grid  w-full md:w-1/2  gap-4 text-center md:text-start  md:absolute md:left-0 md:top-1/2  md:-translate-y-1/2  '>
