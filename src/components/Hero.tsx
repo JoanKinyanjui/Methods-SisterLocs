@@ -9,7 +9,7 @@ function Hero() {
   }
 
   return (
- <div className='relative  w-full mt-[50px] md:mt-[70px] flex justify-center  bg-left-bottom bg-cover' style={{backgroundImage:"url('/images/background3.jpg')"}}>
+ <div className='relative  w-full mt-[40px] md:mt-[70px] flex justify-center  bg-left-bottom bg-cover' style={{backgroundImage:"url('/images/background3.jpg')"}}>
  {/* Overlay */}
  <div className="absolute w-full h-full bg-black_1 bg-opacity-40 "></div>
 
