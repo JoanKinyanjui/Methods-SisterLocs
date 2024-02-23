@@ -13,7 +13,7 @@ function ProffessionalTeam() {
     setActiveStatus(team[0].id)
     
   },[])
-  const setActiveTeamMember =(person:object,id:number)=>{
+  const setActiveTeamMember =(person:TeamProps,id:number)=>{
     setActive(person)
     setActiveStatus(id)
   }
