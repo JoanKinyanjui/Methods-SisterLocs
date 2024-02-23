@@ -7,7 +7,7 @@ function ReviewSlider() {
   return (
 <div className="carousel w-full">
   {reviewData.map((review, index) => (
-      <div id={review.slideNo} className="carousel-item relative w-full h-[55vh] sm:h-[50vh] " key={index}>
+      <div id={review.slideNo} className="carousel-item relative w-full h-[50vh] sm:h-[45vh] md:h-[30vh] " key={index}>
 
       <div className='w-[90%] sm:w-[80%] md:w-[70%] bg-white rounded-md absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-lg py-5 px-4'>
           <div>
