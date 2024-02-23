@@ -11,7 +11,7 @@ function Hero() {
   return (
  <div className='relative  w-full mt-[40px] md:mt-[70px] flex justify-center  bg-left-bottom bg-cover' style={{backgroundImage:"url('/images/background3.jpg')"}}>
  {/* Overlay */}
- <div className="absolute w-full h-full bg-black_1 bg-opacity-40 "></div>
+ <div className="absolute w-full h-full bg-black_1 bg-opacity-60 "></div>
 
   <div className='w-11/12 md:w-[80%] xl:w-[70%] pt-5 md:pt-10 md:py-0 z-30'>
   <div className=' relative grid gap-4 md:gap-0'>
