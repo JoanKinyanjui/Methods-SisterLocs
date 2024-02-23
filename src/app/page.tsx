@@ -11,11 +11,12 @@ import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import SpecialOffer from "@/components/SpecialOffer";
 import StatsJumbotron from "@/components/StatsJumbotron";
+import WhatsappIcon from "@/components/WhatsappIcon";
 import Head from "next/head";
 
 export default function Home() {
   return (
-<div className="grid ">
+<div className="relativel">
   <Head>
         <title>Methods Sisterlocs</title>
         <meta name="description" content="Sisterlocs Salon in Nairobi, Kenya" />
@@ -42,6 +43,9 @@ export default function Home() {
   <section className="my-5 md:my-[30px]"><Reviews /></section>
    <section className="md:my-5"><StatsJumbotron /></section>
    <section className="mt-5 md:mt-[30px]"> <Footer /> </section>
+   <div className="fixed bottom-0 right-0 mr-4 mb-4">
+        <WhatsappIcon />
+      </div>
 </div>
   );
 }

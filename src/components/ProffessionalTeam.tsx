@@ -27,7 +27,7 @@ function ProffessionalTeam() {
 
 <div className='grid justify-center'>
   <Image src={active?.image} alt='' width={200} height={200} className='md:w-[300px] md:h-[320px] rounded-t-md'/>
-  <div className='bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00]  grid '>
+  <div className='bg-brown_2 rounded-b-[3px]  grid '>
     <p className=' mx-auto text-[14px] md:text-[16px] font-[600] font-frank text-black_1'>{active?.name}</p>
     <p className= ' mx-auto text-[12px] italic md:text-[14px] font-[500] font-frank text-black_1 opacity-70 '>{active?.title}</p>
   </div>

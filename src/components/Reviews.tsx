@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from './commons/Card'
-import { reviewData } from '@/data/reviews'
 import Image from 'next/image'
 import ReviewSlider from './ReviewSlider'
 import Title from './commons/Title'
