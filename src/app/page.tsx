@@ -35,6 +35,7 @@ export default function Home() {
   </Head>
   <section><Nav /></section>
   <section><Hero /></section>
+  <section className="my-2 md:my-[30px]"><About /></section>
   <section className="my-5 md:my-[30px]"><Services /></section>
   <section className="my-5 md:my-[30px]"><SpecialOffer /></section>
   <section className="my-5 md:my-[30px]"><ProffessionalTeam /></section>

@@ -36,7 +36,7 @@ function ProffessionalTeam() {
 <div className='flex gap-4 md:gap-6 flex-wrap justify-center my-5'>
   {team.map((person)=>(
     <div className={` rounded-full  flex justify-center items-center  ${activeStatus === person.id ? 'border-[4px] border-[#FFAF00] scale-75 shadow-2xl': ''} `} key={person.id} onClick={()=>setActiveTeamMember(person,person.id)}>
-        <Image src={person.image} alt='' width={100} height={100} className='rounded-full w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px]'/>
+        <Image src={person.image} alt='' width={90} height={90} className='rounded-full w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px]'/>
     </div>
   ))}
 </div>

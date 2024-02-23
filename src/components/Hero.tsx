@@ -13,8 +13,8 @@ function Hero() {
  {/* Overlay */}
  <div className="absolute w-full h-full bg-black_1 bg-opacity-40 "></div>
 
-  <div className='w-11/12 md:w-[80%] xl:w-[70%] py-5 md:pt-10 md:py-0 z-30'>
-  <div className=' relative grid gap-5 md:gap-0'>
+  <div className='w-11/12 md:w-[80%] xl:w-[70%] pt-5 md:pt-10 md:py-0 z-30'>
+  <div className=' relative grid gap-4 md:gap-0'>
   <div className='flex mx-auto md:mr-0 w-full md:w-1/2 lg:w-[50%] justify-center md:justify-end'>
     <Image src='/images/background0.png' alt='' width={200} height={150} className='rounded-full  sm:w-[400px] sm:h-[400px] md:w-[100%] xl:w-[90%] md:h-auto flex-shrink-0 flex-grow-0'/>
   </div>

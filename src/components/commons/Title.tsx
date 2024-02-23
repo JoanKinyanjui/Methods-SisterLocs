@@ -8,7 +8,7 @@ function Title({title}:TitleProps) {
       <div className='text-[20px] md:text-[30px] text-black_1  capitalize font-semibold  font-[System]'>
       {title}
     </div>
-     <div className='h-1 w-[50px]  bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00] '></div>
+     <div className='h-[3px] md:h-1 w-[30px] md:w-[50px]  bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00] '></div>
   </div>
   )
 }

@@ -13,9 +13,7 @@ function Reviews() {
     <div className='grid '>
     <Title title='What Clients Are Saying' />
     {/* Reviews */}
-    <div className='w-[100%] sm:w-[100%] md:w-[90%] lg:w-[80%] xl:w-[70%] flex mx-auto  '>
    <ReviewSlider />
-    </div>
     </div>
     </Card>
     </div>

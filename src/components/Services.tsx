@@ -6,7 +6,7 @@ import Title from './commons/Title'
 function Services() {
   return (
    <Card>
-<div className='grid w-full mx-auto text-black_1'>
+<div className='grid w-full mx-auto'>
 
 <div className='my-2 mx-auto text-center'>
   <Title title='Our Sercvices'/>
