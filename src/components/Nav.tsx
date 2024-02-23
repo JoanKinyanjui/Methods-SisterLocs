@@ -15,7 +15,8 @@ function Nav() {
   <ul className='md:flex gap-8 hidden text-black_1 text-[15px]  font-[600]'>
     <li className="">About</li>
     <li  className="" >Services</li>
-    <li  className="">Book</li>
+    <li  className="">Team</li>
+    <li  className="">Reviews</li>
   </ul>
 
 <div>
@@ -52,6 +53,8 @@ function Nav() {
      <li className=" text-[12px] md:text-[16px] font-normal">About</li>
       <li  className="text-[12px] md:text-[16px] font-normal" >Services</li>
       <li  className="text-[12px] md:text-[16px] font-normal">Book</li>
+      <li  className="text-[12px] md:text-[16px] font-normal">Team</li>
+    <li  className="text-[12px] md:text-[16px] font-normal">Reviews</li>
     </ul> 
    </div> 
 </div>  

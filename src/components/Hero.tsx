@@ -22,10 +22,10 @@ function Hero() {
   <div className='grid  w-full md:w-1/2  gap-4 text-center md:text-start  md:absolute md:left-0 md:top-1/2  md:-translate-y-1/2  '>
    <div className='w-[100%] md:w-[100%] xl:w-[110%] grid text-white '>
    <div className='font-[700] mb-3 md:mb-4'>
-   <p className='text-[24px] md:text-[30px] lg:text-[45px] xl:text-[60px] font-frank'>Beauty is Whatever</p>
-    <p className='text-[24px] md:text-[30px] lg:text-[45px] xl:text-[60px] font-frank'>Brings Perfect</p>
+   <p className='text-[24px] md:text-[30px] lg:text-[40px] xl:text-[55px] font-frank'>Discover Sisterlocks Installation </p>
+    <p className='text-[24px] md:text-[30px] lg:text-[40px] xl:text-[55px] font-frank'>in Nairobi Kenya</p>
    </div>
-    <p className='text-[14px] md:text-[16px] lg:text-[17px] font-[Inter] w-[90%] md:w-[100%] xl:w-[70%] mx-auto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,  aliquip ex ea commodo consequat. </p>
+    <p className='text-[14px] md:text-[16px] lg:text-[17px] font-[Inter] w-[90%] md:w-[100%] xl:w-[70%] mx-auto md:mx-0'>Experience flawless sisterlocks installation, precision retightening, personalized maintenance, and stunning styling options </p>
     <div className='mx-auto md:mx-0'><Button buttonText='Book Now' onButtonClick={onBook}/></div>
    </div>
   </div>
