@@ -6,6 +6,7 @@ import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
+import ProffessionalTeam from "@/components/ProffessionalTeam";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import SpecialOffer from "@/components/SpecialOffer";
@@ -34,11 +35,12 @@ export default function Home() {
   </Head>
   <section><Nav /></section>
   <section><Hero /></section>
-  <section><Services /></section>
-  <section><SpecialOffer /></section>
-  <section><Reviews /></section>
-   <section><StatsJumbotron /></section>
-   <section> <Footer /> </section>
+  <section className="my-5 md:my-[30px]"><Services /></section>
+  <section className="my-5 md:my-[30px]"><SpecialOffer /></section>
+  <section className="my-5 md:my-[30px]"><ProffessionalTeam /></section>
+  <section className="my-5 md:my-[30px]"><Reviews /></section>
+   <section className="md:my-5"><StatsJumbotron /></section>
+   <section className="mt-5 md:mt-[30px]"> <Footer /> </section>
 </div>
   );
 }

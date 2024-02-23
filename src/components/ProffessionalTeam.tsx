@@ -1,0 +1,48 @@
+import React, { useEffect, useState } from 'react';
+import Card from './commons/Card';
+import { team } from '@/data/team';
+import Title from './commons/Title';
+import Image from 'next/image';
+
+function ProffessionalTeam() {
+  const [active,setActive] = useState<object>({});
+  const [activeStatus,setActiveStatus] = useState<number | null>(null);
+
+  useEffect(()=>{
+    setActive(team[0])
+    setActiveStatus(team[0].id)
+    
+  },[])
+  const setActiveTeamMember =(person:object,id:number)=>{
+    setActive(person)
+    setActiveStatus(id)
+  }
+  
+  return (
+   <Card>
+<div className='grid gap-5'>
+<div>
+  <Title title='Meet Out Team'/>
+</div>
+
+<div className='grid justify-center'>
+  <Image src={active?.image} alt='' width={200} height={200} className='md:w-[300px] md:h-[320px] rounded-t-md'/>
+  <div className='bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00]  grid '>
+    <p className=' mx-auto text-[14px] md:text-[16px] font-[600] font-frank text-black_1'>{active?.name}</p>
+    <p className= ' mx-auto text-[12px] italic md:text-[14px] font-[500] font-frank text-black_1 opacity-70 '>{active?.title}</p>
+  </div>
+</div>
+
+<div className='flex gap-4 md:gap-6 flex-wrap justify-center my-5'>
+  {team.map((person)=>(
+    <div className={` rounded-full  flex justify-center items-center  ${activeStatus === person.id ? 'border-[4px] border-[#FFAF00] scale-75 shadow-2xl': ''} `} key={person.id} onClick={()=>setActiveTeamMember(person,person.id)}>
+        <Image src={person.image} alt='' width={100} height={100} className='rounded-full w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] md:w-[120px] md:h-[120px]'/>
+    </div>
+  ))}
+</div>
+</div>
+   </Card>
+  )
+}
+
+export default ProffessionalTeam;
