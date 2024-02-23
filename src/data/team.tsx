@@ -1,4 +1,4 @@
-type TeamProps = {
+export type TeamProps = {
     id:number;
     name: string;
     title: string;

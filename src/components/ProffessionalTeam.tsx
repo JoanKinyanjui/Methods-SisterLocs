@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Card from './commons/Card';
-import { team } from '@/data/team';
+import { TeamProps, team } from '@/data/team';
 import Title from './commons/Title';
 import Image from 'next/image';
 
 function ProffessionalTeam() {
-  const [active,setActive] = useState<object>({});
+  const [active,setActive] = useState<TeamProps>(team[0]);
   const [activeStatus,setActiveStatus] = useState<number | null>(null);
 
   useEffect(()=>{
