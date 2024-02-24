@@ -12,7 +12,7 @@ function Nav() {
    <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[18px] md:text-[24px] font-[700] font-frank ${styles.TextGradient}`}>Methods Sisterlocs</div>
 
 <div className=''>
-  <ul className='md:flex gap-8 hidden text-black_1 opacity-85 text-[15px]  font-[600]'>
+  <ul className='md:flex gap-8 hidden text-black_1 opacity-85 md:text-[16px]  font-[600]'>
     <li className=" hover:scale-105" ><a href='#About'>About</a></li>
     <li  className="hover:scale-105"  ><a href='#Services'>Services</a></li>
     <li  className="hover:scale-105"><a  href='#Team'>Team</a></li>
@@ -50,10 +50,10 @@ function Nav() {
 
     </div>
    <ul className={`gap-2 grid justify-start  `}>
-     <li className=" text-[12px] md:text-[16px] font-normal hover:scale-105" ><a href='#About'>About</a></li>
-      <li  className="text-[12px] md:text-[16px] font-normal hover:scale-105 "  ><a href='#Services'>Services</a></li>
-      <li  className="text-[12px] md:text-[16px] font-normal hover:scale-105 "><a  href='#Team'>Team</a></li>
-    <li  className="text-[12px] md:text-[16px] font-normal hover:scale-105 " ><a href='#Reviews'>Reviews</a></li>
+     <li className=" text-[13px]  font-normal hover:scale-105" ><a href='#About'>About</a></li>
+      <li  className="text-[13px]  font-normal hover:scale-105 "  ><a href='#Services'>Services</a></li>
+      <li  className="text-[13px]  font-normal hover:scale-105 "><a  href='#Team'>Team</a></li>
+    <li  className="text-[13px]  font-normal hover:scale-105 " ><a href='#Reviews'>Reviews</a></li>
     </ul> 
    </div> 
 </div>  
