@@ -28,8 +28,8 @@ function About() {
  <Button buttonText='Book Now' onButtonClick={()=>console.log('Book Now')}/>
   </div>
 
-  <div className='w-full  lg:w-[60%] h-[160px] xs:h-[250px] md:h-[300px] lg:h-[430px] rounded-lg overflow-hidden '>
-  <video className="w-full h-full rounded-[20px] bg-[gainsboro]" autoPlay loop controls>
+  <div className='w-full  lg:w-[60%] h-[160px] xs:h-[250px] md:h-[300px] lg:h-[430px]  overflow-hidden  '>
+  <video className="w-full h-full rounded-[5px] bg-[gainsboro] object-cover" autoPlay loop controls>
     <source src="/videos/salon.mp4" type="video/mp4"  />
     Your browser does not support the video tag.
   </video>
