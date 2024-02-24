@@ -7,16 +7,16 @@ function Nav() {
   const [show,setShow] = useState(false);
 
   return (
-    <div className='fixed top-0 z-50 bg-white  w-full h-[50px] md:h-[70px]  mx-auto text-frank grid items-center'>
+    <div className='fixed top-0 z-50 bg-white  w-full h-[50px] md:h-[70px]  mx-auto text-[System] grid items-center'>
    <div className=" w-11/12 md:w-[80%] xl:w-[70%] flex justify-between  mx-auto items-center cursor-pointer ">
    <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[18px] md:text-[24px] font-[700] font-frank ${styles.TextGradient}`}>Methods Sisterlocs</div>
 
 <div className=''>
-  <ul className='md:flex gap-8 hidden text-black_1 text-[15px]  font-[600]'>
-    <li className="">About</li>
-    <li  className="" >Services</li>
-    <li  className="">Team</li>
-    <li  className="">Reviews</li>
+  <ul className='md:flex gap-8 hidden text-black_1 opacity-85 text-[15px]  font-[600]'>
+    <li className=" hover:scale-105" ><a href='#About'>About</a></li>
+    <li  className="hover:scale-105"  ><a href='#Services'>Services</a></li>
+    <li  className="hover:scale-105"><a  href='#Team'>Team</a></li>
+    <li  className="hover:scale-105" ><a href='#Reviews'>Reviews</a></li>
   </ul>
 
 <div>
@@ -50,11 +50,10 @@ function Nav() {
 
     </div>
    <ul className={`gap-2 grid justify-start  `}>
-     <li className=" text-[12px] md:text-[16px] font-normal">About</li>
-      <li  className="text-[12px] md:text-[16px] font-normal" >Services</li>
-      <li  className="text-[12px] md:text-[16px] font-normal">Book</li>
-      <li  className="text-[12px] md:text-[16px] font-normal">Team</li>
-    <li  className="text-[12px] md:text-[16px] font-normal">Reviews</li>
+     <li className=" text-[12px] md:text-[16px] font-normal hover:scale-105" ><a href='#About'>About</a></li>
+      <li  className="text-[12px] md:text-[16px] font-normal hover:scale-105 "  ><a href='#Services'>Services</a></li>
+      <li  className="text-[12px] md:text-[16px] font-normal hover:scale-105 "><a  href='#Team'>Team</a></li>
+    <li  className="text-[12px] md:text-[16px] font-normal hover:scale-105 " ><a href='#Reviews'>Reviews</a></li>
     </ul> 
    </div> 
 </div>  

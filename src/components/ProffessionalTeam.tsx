@@ -25,11 +25,13 @@ function ProffessionalTeam() {
   <Title title='Meet Out Team'/>
 </div>
 
-<div className='grid justify-center '>
-  <Image src={active?.image} alt='' width={200} height={200} className='md:w-[300px] md:h-[320px] rounded-t-md'/>
-  <div className='bg-brown_2 rounded-b-[3px]  grid '>
+<div className='grid justify-center float-animation '>
+  <div className=' float-animation'>
+  <Image src={active?.image} alt='' width={200} height={200} className='md:w-[300px] md:h-[320px] rounded-t-md bg-gray_2'/>
+  <div className='bg-brown_2 rounded-b-md  grid '>
     <p className=' mx-auto text-[14px] md:text-[16px] font-[600] font-frank text-black_1'>{active?.name}</p>
-    <p className= ' mx-auto text-[12px] italic md:text-[14px] font-[500] font-frank text-black_1 opacity-70 '>{active?.title}</p>
+    <p className= ' mx-auto text-[12px] italic md:text-[14px] font-[500] font-frank text-black_1 opacity-70 pb-1'>{active?.title}</p>
+  </div>
   </div>
 </div>
 

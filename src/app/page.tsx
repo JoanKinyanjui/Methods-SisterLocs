@@ -36,13 +36,13 @@ export default function Home() {
   </Head>
   <section><Nav /></section>
   <section><Hero /></section>
-  <section className="my-2 md:my-[30px]"><About /></section>
-  <section className="my-5 md:my-[30px]"><Services /></section>
-  <section className="my-5 md:my-[30px]"><SpecialOffer /></section>
-  <section className="my-5 md:my-[30px]"><ProffessionalTeam /></section>
-  <section className="my-5 md:my-[30px]"><Reviews /></section>
+  <section className="my-2 md:my-[50px]" id='About'><About /></section>
+  <section className="my-5 md:my-[50px]" id='Services'><Services /></section>
+  <section className="my-5 md:my-[50px]" ><SpecialOffer /></section>
+  <section className="my-5 md:my-[50px]" id='Team'><ProffessionalTeam /></section>
+  <section className="my-5 md:my-[50px]" id='Reviews'><Reviews /></section>
    <section className="md:my-5"><StatsJumbotron /></section>
-   <section className="mt-5 md:mt-[30px]"> <Footer /> </section>
+   <section className="mt-5 md:mt-[50px]"> <Footer /> </section>
    <div className="fixed bottom-0 right-0 mr-4 mb-4">
         <WhatsappIcon />
       </div>
