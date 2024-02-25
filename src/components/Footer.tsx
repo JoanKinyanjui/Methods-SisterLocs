@@ -36,10 +36,11 @@ function Footer() {
       <div className='w-full md:w-1/3 grid gap-1 md:gap-2 items-center  md:px-5'>
         <div className='md:mx-auto grid gap-2'>
         <div className='text-start  md:mx-auto'> <Image  src='/icons/blow.png'  width={18} height={18} alt='tiktok' className=' md:w-[25px] md:h-[25px]'/></div>
-        <p className='text-start '>Home</p>
-        <p className='text-start '>About Us</p>
-        <p className='text-start '>Services</p>
-        <p className='text-start '>Book</p>
+        <a href='#Home' className='text-start '>Home</a>
+        <a  href='#About'  className='text-start '>About Us</a>
+        <a  href='#Services' className='text-start '>Services</a>
+        <a  href='#Team' className='text-start '>Team</a>
+        <a  href='#Reviews' className='text-start '>Reviews</a>
         </div>
       </div>
 

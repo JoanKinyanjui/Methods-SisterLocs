@@ -35,7 +35,7 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&display=swap" rel="stylesheet" />
   </Head>
   <section><Nav /></section>
-  <section><Hero /></section>
+  <section id='Home'><Hero /></section>
   <section className="my-2 md:my-[50px]" id='About'><About /></section>
   <section className="my-5 md:my-[50px]" id='Services'><Services /></section>
   <section className="my-5 md:my-[50px]" ><SpecialOffer /></section>
