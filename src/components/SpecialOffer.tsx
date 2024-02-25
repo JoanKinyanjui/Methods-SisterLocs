@@ -20,7 +20,7 @@ function SpecialOffer() {
    <p className='text-center md:text-start mx-auto font-thin text-[18px] md:text-[20px] text-white uppercase'>Special Offer </p>
             <p className={`${styles.TextGradient} py-2 text-center md:text-start mx-auto font-[700] text-[24px] md:text-[30px]  bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00]`}>50% OFF</p>
             <p className='w-[90%] md:w-[100%]  text-center md:text-start mx-auto text-[12px] md:text-[14px] text-white font-[400]'>Discount For All Orders Over . We are always willing to make our customers happy and are ready to support your most bold and creative ideas in hairstyle and hair coloring!</p>
-            <div className=' mx-auto  flex justify-center md:justify-start'><Button buttonText='Book Now' onButtonClick={onBookNow}/></div>
+            <div className=' mx-auto  flex justify-center md:justify-start'><Button /></div>
    </div>
            </div>
           </div>

@@ -48,7 +48,7 @@ function Footer() {
    <div className=' grid justify-start md:px-5 w-full  '>
      <p className='font-[500] text-white py-2'>Stay Connected</p>
      <InputField placeholder='Enter phone number' onchange={onChangePhoneNumber}  value={phoneNo}/>
-     <Button buttonText='Book Now' onButtonClick={onBookNow} /> 
+     <Button  /> 
    </div>
       </div>
 

@@ -7,20 +7,18 @@ import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 
 const BootstrapDialog = styled(Dialog)(({ theme }:any) => ({
-  '& .MuiDialogContent-root': {
-    padding: theme.spacing(2),
-  },
-  '& .MuiDialogActions-root': {
-    padding: theme.spacing(1),
-  },
 }));
 
 export default function BookNowModal({handleClose,open}:any) {
     const [name, setName] = useState<string>('');
     const [phoneNumber, setPhoneNumber] = useState<number>();
     const [description, setDescription] = useState<string>('');
-    const [status,setStatus] = useState<string>("We will Reach out as soon as possible");
+    const [status,setStatus] = useState<string>("");
   
+
+     useEffect(()=>{
+        setStatus('We will Reach out as soon as possible')
+     },[])
     const handleSubmit = () => {
     if(name === '' || phoneNumber === null ||description === ""){
     setStatus('Please Fill in all the fields');
@@ -63,24 +61,24 @@ export default function BookNowModal({handleClose,open}:any) {
 
 <form>
 <div className='grid gap-1 my-3'>
-<label className='text-[14px] md:text-[16px] text-gray_text'>Name </label>
+<label className='text-[14px] md:text-[16px] text-black_1 opacity-80'>Name </label>
 <input type='text' value={name} onChange={(e)=>setName(e.target.value)} className='py-2 md:py-3 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'/>
 </div>
 <div className='grid gap-1 my-3'>
-<label className='text-[14px] md:text-[16px] text-gray_text'>Phone Number </label>
+<label className='text-[14px] md:text-[16px] text-black_1 opacity-80'>Phone Number </label>
 <input type='number' value={phoneNumber} onChange={(e)=>setPhoneNumber(e.target.value)} className='py-2 md:py-3 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'/>
 </div>
 <div className='grid gap-1 my-3'>
-<label className='text-[14px] md:text-[16px] text-gray_text'>A brief description of your service needed </label>
+<label className='text-[14px] md:text-[16px] text-black_1 opacity-80'>A brief description of your service needed </label>
 <textarea  value={description} onChange={(e)=>setDescription(e.target.value)} className='py-2 md:py-3 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'></textarea>
 </div>
 </form>
 
-<p className='text-gray_text text-[14px] md:text-[16px] w-full flex justify-center'>{status}</p>
+<p className={` ${status === 'Please Fill in all the fields' ? 'text-brown_1':""}  text-gray_text text-[14px] md:text-[16px] w-full flex justify-center`}>{status}</p>
 
     <div className="modal-action">
       <div className='flex justify-between w-full '>
-      <button className={`${status === 'Please Fill in all the fields' ? 'text-brown_1':""} btn  bg-[#FFAF00] text-white`} onClick={handleSubmit}>Submit</button>
+      <button className={`btn  bg-[#FFAF00] text-white`} onClick={handleSubmit}>Submit</button>
         <button className=" btn bg-gray_text text-white ">Close</button>
       </div>
     </div>

@@ -25,7 +25,7 @@ function About() {
   <li>Styling and Care</li>
  </ul>
 </div>
- <Button buttonText='Book Now' onButtonClick={()=>console.log('Book Now')}/>
+ <Button />
   </div>
 
   <div className='w-full lg:w-[60%] xl:w-[50%] h-[150px] xs:h-[250px] md:h-[300px] lg:h-[430px]  overflow-hidden flex lg:justify-center lg:items-center  '>

@@ -26,7 +26,7 @@ function Hero() {
     <p className='text-[24px] md:text-[30px] lg:text-[40px] xl:text-[55px] font-frank'>in Nairobi Kenya</p>
    </div>
     <p className='text-[14px] md:text-[16px] lg:text-[17px] font-[Inter] w-[90%] md:w-[100%] xl:w-[70%] mx-auto md:mx-0'>Experience flawless sisterlocks installation, precision retightening, personalized maintenance, and stunning styling options </p>
-    <div className='mx-auto md:mx-0'><Button buttonText='Book Now' onButtonClick={onBook}/></div>
+    <div className='mx-auto md:mx-0'><Button /></div>
    </div>
   </div>
  </div>
