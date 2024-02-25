@@ -24,9 +24,9 @@ export default function BookNowModal({handleClose,open}:any) {
     setStatus('Please Fill in all the fields');
     return;
     }
-    // const bsPhoeNo = "+254722810585";
-    const bsPhoeNo = "+254790236990";
-    const message =` Hi , I'm ${name} .${description} .Here is my Phone Number ${bsPhoeNo}.Reach out soon`
+    const bsPhoeNo = "+254722810585";
+    // const bsPhoeNo = "+254790236990";
+    const message = `Hi, I'm ${name}. \n${description}.\nHere is my Phone Number: ${bsPhoeNo}. Reach out soon`;
     const whatsappLink = `https://wa.me/${bsPhoeNo}?text=${encodeURIComponent(message)}`;
      window.open(whatsappLink, '_blank');
      setName('');
@@ -60,7 +60,7 @@ export default function BookNowModal({handleClose,open}:any) {
 <div>
 
 <form>
-<div className='grid gap-1 my-3'>
+<div className='grid gap-1 my-2'>
 <label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>Name </label>
 <input type='text' value={name} onChange={(e)=>setName(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'/>
 </div>
