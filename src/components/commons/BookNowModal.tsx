@@ -45,7 +45,7 @@ export default function BookNowModal({handleClose,open}:any) {
         // maxWidth="lg"
         fullWidth
       >
-        <div className='w-[100%]  mx-auto items-center flex mt-4 justify-end'>
+        <div className='w-[100%]  mx-auto items-center flex md:mt-4 justify-end'>
         <IconButton
           aria-label="close"
           onClick={handleClose}
