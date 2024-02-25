@@ -61,20 +61,20 @@ export default function BookNowModal({handleClose,open}:any) {
 
 <form>
 <div className='grid gap-1 my-3'>
-<label className='text-[14px] md:text-[16px] text-black_1 opacity-80'>Name </label>
+<label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>Name </label>
 <input type='text' value={name} onChange={(e)=>setName(e.target.value)} className='py-2 md:py-3 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'/>
 </div>
 <div className='grid gap-1 my-3'>
-<label className='text-[14px] md:text-[16px] text-black_1 opacity-80'>Phone Number </label>
+<label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>Phone Number </label>
 <input type='number' value={phoneNumber || ''} onChange={(e)=>setPhoneNumber(parseInt(e.target.value))} className='py-2 md:py-3 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'/>
 </div>
 <div className='grid gap-1 my-3'>
-<label className='text-[14px] md:text-[16px] text-black_1 opacity-80'>A brief description of your service needed </label>
+<label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>A brief description of your service needed </label>
 <textarea  value={description} onChange={(e)=>setDescription(e.target.value)} className='py-2 md:py-3 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'></textarea>
 </div>
 </form>
 
-<p className={` ${status === 'Please Fill in all the fields' ? 'text-brown_1':""}  text-gray_text text-[14px] md:text-[16px] w-full flex justify-center`}>{status}</p>
+<p className={` ${status === 'Please Fill in all the fields' ? 'text-brown_1':""}  text-gray_text text-[12px] md:text-[14px] w-full flex justify-center`}>{status}</p>
 
     <div className="modal-action">
       <div className='flex justify-center w-full '>
