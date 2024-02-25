@@ -66,7 +66,7 @@ export default function BookNowModal({handleClose,open}:any) {
 </div>
 <div className='grid gap-1 my-3'>
 <label className='text-[14px] md:text-[16px] text-black_1 opacity-80'>Phone Number </label>
-<input type='number' value={phoneNumber} onChange={(e)=>setPhoneNumber(e.target.value)} className='py-2 md:py-3 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'/>
+<input type='number' value={phoneNumber || ''} onChange={(e)=>setPhoneNumber(parseInt(e.target.value))} className='py-2 md:py-3 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'/>
 </div>
 <div className='grid gap-1 my-3'>
 <label className='text-[14px] md:text-[16px] text-black_1 opacity-80'>A brief description of your service needed </label>
@@ -77,9 +77,8 @@ export default function BookNowModal({handleClose,open}:any) {
 <p className={` ${status === 'Please Fill in all the fields' ? 'text-brown_1':""}  text-gray_text text-[14px] md:text-[16px] w-full flex justify-center`}>{status}</p>
 
     <div className="modal-action">
-      <div className='flex justify-between w-full '>
-      <button className={`btn  bg-[#FFAF00] text-white`} onClick={handleSubmit}>Submit</button>
-        <button className=" btn bg-gray_text text-white ">Close</button>
+      <div className='flex justify-center w-full '>
+      <button className={`py-2 rounded-md px-4 bg-[#FFAF00] text-white`} onClick={handleSubmit}>Submit</button>
       </div>
     </div>
 
