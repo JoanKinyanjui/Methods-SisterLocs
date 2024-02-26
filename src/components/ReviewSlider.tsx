@@ -13,8 +13,10 @@ function ReviewSlider() {
     <p className='mx-auto text-[15px] font-semibold text-black_1 opacity-85'>Rebecca Mwangi</p>
     <p className='mx-auto font-light text-[13px] md:text-[14px]'>Business Woman</p>
       <div className='flex gap-1 mx-auto'>
-                {Array.from({ length: 5 }, (_, i) => (
-                    <Image key={i} src="/icons/star.png" alt="star" width={15} height={15} />
+      {Array.from({ length: 5 }, (_, i) => (
+                  <div className='w-[15px] h-[15px]'>
+                      <Image key={i} src="/icons/star.png" alt="star" width={15} height={15}  className='w-[15px] h-[15px]'/>
+                  </div>
                   ))}
                 </div>
        <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>I had a wonderful experience at Sisterlocks Salon. The staff were friendly and professional, and my hair looks amazing! I highly recommend their services to anyone looking for quality natural hair care.</p>
@@ -28,8 +30,10 @@ function ReviewSlider() {
     <p className='mx-auto text-[15px] font-semibold text-black_1 opacity-85'>Stella Wanjiru</p>
     <p className='mx-auto font-light text-[13px] md:text-[14px]'>Doctor</p>
       <div className='flex gap-1 mx-auto'>
-                {Array.from({ length: 5 }, (_, i) => (
-                    <Image key={i} src="/icons/star.png" alt="star" width={15} height={15} />
+      {Array.from({ length: 5 }, (_, i) => (
+                  <div className='w-[15px] h-[15px]'>
+                      <Image key={i} src="/icons/star.png" alt="star" width={15} height={15}  className='w-[15px] h-[15px]'/>
+                  </div>
                   ))}
                 </div>
        <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>I cannot thank Sisterlocks Salon enough for the incredible transformation they've brought to my hair. From installation to maintenance, they've provided top-notch service. I feel more confident and beautiful than ever!</p>
@@ -42,8 +46,10 @@ function ReviewSlider() {
     <p className='mx-auto text-[15px] font-semibold text-black_1 opacity-85'>Esther Mwangi</p>
     <p className='mx-auto font-light text-[13px] md:text-[14px]'>Nurse</p>
       <div className='flex gap-1 mx-auto'>
-                {Array.from({ length: 5 }, (_, i) => (
-                    <Image key={i} src="/icons/star.png" alt="star" width={15} height={15} />
+      {Array.from({ length: 5 }, (_, i) => (
+                  <div className='w-[15px] h-[15px]'>
+                      <Image key={i} src="/icons/star.png" alt="star" width={15} height={15}  className='w-[15px] h-[15px]'/>
+                  </div>
                   ))}
                 </div>
        <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>I've been a loyal client of Sisterlocks Salon for years, and I am consistently impressed by their expertise in styling and caring for my natural hair. The stylists are knowledgeable, and the atmosphere is welcoming. I wouldn't trust anyone else with my hair.</p>
@@ -56,8 +62,10 @@ function ReviewSlider() {
     <p className='mx-auto text-[15px] font-semibold text-black_1 opacity-85'>Betty Omanga</p>
     <p className='mx-auto font-light text-[13px] md:text-[14px]'>Teacher</p>
       <div className='flex gap-1 mx-auto'>
-                {Array.from({ length: 5 }, (_, i) => (
-                    <Image key={i} src="/icons/star.png" alt="star" width={15} height={15} />
+      {Array.from({ length: 5 }, (_, i) => (
+                  <div className='w-[15px] h-[15px]'>
+                      <Image key={i} src="/icons/star.png" alt="star" width={15} height={15}  className='w-[15px] h-[15px]'/>
+                  </div>
                   ))}
                 </div>
        <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>Starting my healthy hair journey with Sisterlocks Salon was one of the best decisions I've made. They've helped me embrace my natural hair texture and provided invaluable tips for maintaining its health. I've seen remarkable improvement in the condition of my hair since I started coming here</p>
