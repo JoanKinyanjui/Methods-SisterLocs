@@ -71,7 +71,7 @@ function ReviewSlider() {
     <p className='mx-auto font-light text-[13px] md:text-[14px]'>Student</p>
       <div className='flex gap-1 mx-auto'>
                 {Array.from({ length: 5 }, (_, i) => (
-                    <Image key={i} src="/icons/star.png" alt="star" width={15} height={15} />
+                    <Image key={i} src="/icons/star.png" alt="star" width={15} height={15}  className='w-[15px] h-[15px] flex flex-grow-0 flex-shrink-0'/>
                   ))}
                 </div>
        <p className='text-center mx-auto px-2  text-[12px] md:text-[14px] text-black_1 my-2 w-full '>Sisterlocks Salon has completely transformed my hair care routine. Their dedication to promoting healthy hair and celebrating natural beauty is truly inspiring. The results speak for themselves - my hair has never looked better! I'm grateful to have found such a fantastic salon.</p>
