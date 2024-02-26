@@ -5,6 +5,7 @@ import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
+import Head from 'next/head';
 
 const BootstrapDialog = styled(Dialog)(({ theme }:any) => ({
 }));
@@ -36,7 +37,11 @@ export default function BookNowModal({handleClose,open}:any) {
   
 
   return (
-    <React.Fragment>
+    <>
+    <Head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    </Head>
 <div className=''>
 <BootstrapDialog
         onClose={handleClose}
@@ -62,15 +67,15 @@ export default function BookNowModal({handleClose,open}:any) {
 <form>
 <div className='grid gap-1 my-2'>
 <label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>Name </label>
-<input type='text' value={name} onChange={(e)=>setName(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1 text-[12px] md:text-[14px] opacity-80'/>
+<input type='text' value={name} onChange={(e)=>setName(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1 md:text-[16px] opacity-80'/>
 </div>
 <div className='grid gap-1 my-3'>
 <label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>Phone Number </label>
-<input type='text' value={phoneNumber} onChange={(e)=>setPhoneNumber(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1 text-[12px] md:text-[14px] opacity-80'/>
+<input type='text' value={phoneNumber} onChange={(e)=>setPhoneNumber(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1 md:text-[16px] opacity-80'/>
 </div>
 <div className='grid gap-1 my-3'>
 <label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>A brief description of your service needed </label>
-<textarea  value={description} onChange={(e)=>setDescription(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1 text-[12px] md:text-[14px] opacity-80'></textarea>
+<textarea  value={description} onChange={(e)=>setDescription(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1 md:text-[16px] opacity-80'></textarea>
 </div>
 </form>
 
@@ -86,6 +91,6 @@ export default function BookNowModal({handleClose,open}:any) {
   </div>
       </BootstrapDialog>
 </div>
-    </React.Fragment>
+    </>
   );
 }
