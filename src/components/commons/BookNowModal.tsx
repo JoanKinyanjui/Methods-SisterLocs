@@ -11,7 +11,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }:any) => ({
 
 export default function BookNowModal({handleClose,open}:any) {
     const [name, setName] = useState<string>('');
-    const [phoneNumber, setPhoneNumber] = useState<number>();
+    const [phoneNumber, setPhoneNumber] = useState<string>('+254');
     const [description, setDescription] = useState<string>('');
     const [status,setStatus] = useState<string>("");
   
@@ -30,7 +30,7 @@ export default function BookNowModal({handleClose,open}:any) {
     const whatsappLink = `https://wa.me/${bsPhoeNo}?text=${encodeURIComponent(message)}`;
      window.open(whatsappLink, '_blank');
      setName('');
-     setPhoneNumber(undefined);
+     setPhoneNumber('');
      setDescription('');
     };
   
@@ -62,15 +62,15 @@ export default function BookNowModal({handleClose,open}:any) {
 <form>
 <div className='grid gap-1 my-2'>
 <label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>Name </label>
-<input type='text' value={name} onChange={(e)=>setName(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'/>
+<input type='text' value={name} onChange={(e)=>setName(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1 text-[12px] md:text-[14px] opacity-80'/>
 </div>
 <div className='grid gap-1 my-3'>
 <label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>Phone Number </label>
-<input type='number' value={phoneNumber || ''} onChange={(e)=>setPhoneNumber(parseInt(e.target.value))} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'/>
+<input type='text' value={phoneNumber} onChange={(e)=>setPhoneNumber(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1 text-[12px] md:text-[14px] opacity-80'/>
 </div>
 <div className='grid gap-1 my-3'>
 <label className='text-[12px] md:text-[14px] text-black_1 opacity-80'>A brief description of your service needed </label>
-<textarea  value={description} onChange={(e)=>setDescription(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1'></textarea>
+<textarea  value={description} onChange={(e)=>setDescription(e.target.value)} className='py-1 md:py-2 px-2 focus:outline-none focus:border-none rounded-md bg-[gainsboro] text-black_1 text-[12px] md:text-[14px] opacity-80'></textarea>
 </div>
 </form>
 
