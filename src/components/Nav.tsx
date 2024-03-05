@@ -9,7 +9,7 @@ function Nav() {
   return (
     <div className='fixed top-0 z-50 bg-white  w-full h-[50px] md:h-[70px]  mx-auto text-[System] grid items-center'>
    <div className=" w-11/12 md:w-[80%] xl:w-[70%] flex justify-between  mx-auto items-center cursor-pointer ">
-   <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[18px] md:text-[24px] font-[700] font-frank ${styles.TextGradient}`}>Methods Sisterlocs</div>
+   <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[18px] md:text-[24px] font-[700] font-frank ${styles.TextGradient}`}>Methods Sisterlocks</div>
 
 <div className=''>
   <ul className='md:flex gap-8 hidden text-black_1 opacity-80 md:text-[16px]  font-[600]'>
@@ -35,7 +35,7 @@ function Nav() {
 
   <div className={` ${show ? 'grid' : 'hidden'}  bg-white z-50  md:hidden absolute top-0 right-0 xxs:w-[60%] xs:w-[50%] sm:w-[40%] grid mt-4  rounded-l-[5px] px-4 pt-2 pb-4 gap-1 max-h-max`}>
    <div className='flex justify-between w-full gap-5 ' onClick={()=>{setShow(!show)}}>
-   <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[15px] font-[700] font-frank ${styles.TextGradient}`}>Methods Sisterlocs</div>
+   <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[15px] font-[700] font-frank ${styles.TextGradient}`}>Methods Sisterlocks</div>
    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
   <defs>
     <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">

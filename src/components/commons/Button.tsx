@@ -27,7 +27,7 @@ function Button() {
     <span>o</span>
     <span>w</span>
   </span>
-  <span className="span-mother2">
+  <div className="span-mother2">
     <span>B</span>
     <span>o</span>
     <span>o</span>
@@ -36,7 +36,7 @@ function Button() {
     <span>N</span>
     <span>o</span>
     <span>w</span>
-  </span>
+  </div>
     </button>
     <BookNowModal  handleClose={handleClose} open={open}/>
     </div>

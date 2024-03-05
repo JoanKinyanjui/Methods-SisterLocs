@@ -9,7 +9,7 @@ function Services() {
 <div className='grid w-full mx-auto'>
 
 <div className='my-2 mx-auto text-center'>
-  <Title title='Our Sercvices'/>
+  <Title title='Our Services'/>
 </div>
 
 <div className='md:w-[90%] mx-auto'>

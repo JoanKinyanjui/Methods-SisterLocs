@@ -21,8 +21,8 @@ function Footer() {
      <div className='pt-5 md:pt-0 md:py-5 grid md:flex md:justify-between justify-center gap-8 md:gap-5 md:my-10  md:items-start'>
 
       <div className='w-full md:w-1/3 grid text-start gap-2 md:gap-3 mx-auto  justify-start md:justify-center md:px-5  '>
-        <p className={`${styles.TextGradien} text-white`}>Methods Sisterlocs</p>
-        <p className=' '>Contrary to popular piece of classical Latin consectetur, from a Lorem Ipsum passage, and going through the cites of the word ind est quis, efficitur orci. Nullam molestie turpis mi, ac sagittis arcu luctus eget. Etiam laoreet sit amet augue vel accumsan. Nunc non massa dolor</p>
+        <p className={`${styles.TextGradien} text-white`}>Methods Sisterlocks</p>
+        <p className=' '> Established in 2010 by sisterlocks enthusiast Tarasicio Kinyua, Sisterlocks Salon is a haven for natural hair care aficionados. Our salon is not just a place for styling; it's a space where women can celebrate their natural beauty with confidence and pride. Committed to promoting healthy hair, embracing diversity, and providing unparalleled service, Methods Sisterlocks Salon is your trusted partner in your hair care journey.</p>
        <div className='flex items-center gap-2 w-full'>
         <p className=' font-[500] '>Follow us :</p>
         <div className='flex gap-2 flex-shrink-0'>
@@ -56,7 +56,7 @@ function Footer() {
      </Card>
      <div className='w-full grid my-2 md:my-4 '>
     <div className='bg-gradient-to-r  from-brown_1 via-[#FFAF00] to-brown_1 h-[1px] opacity-50   w-full'></div>
-      <p className='  mx-auto mt-4'>&copy; 2024  Methods Sisterlocs. All rights reserved</p>
+      <p className='  mx-auto mt-4'>&copy; 2024  Methods Sisterlocks. All rights reserved</p>
      </div>
     </div>
     
