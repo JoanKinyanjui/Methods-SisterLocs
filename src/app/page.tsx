@@ -1,8 +1,6 @@
 "use client"
 import About from "@/components/About";
-import Availability from "@/components/Availability";
 import Book from "@/components/Book";
-import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Nav from "@/components/Nav";
