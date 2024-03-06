@@ -8,8 +8,8 @@ export type TeamProps = {
 export const team:TeamProps[] =[
     {   
         id:1,
-        name: "Tarasicio Kinyua",
-        image:'https://i.pinimg.com/564x/a9/f3/90/a9f390c3c3aadfbaf87547c096ea8fd2.jpg',
+        name: "Kinyua Tarah",
+        image:'/images/ceo.jpg',
         title: "Owner / Lead Stylist",
 
     },

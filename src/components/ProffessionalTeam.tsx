@@ -26,8 +26,8 @@ function ProffessionalTeam() {
 </div>
 
 <div className='grid justify-center float-animation '>
-  <div className=' float-animation'>
-  <Image src={active?.image} alt='' width={200} height={200} className='md:w-[300px] md:h-[320px] rounded-t-md bg-gray_2'/>
+  <div className=' float-animation '>
+  <Image src={active?.image} alt='' width={200} height={200} className=' rounded-t-md bg-gray_2 md:w-[300px] lg:w-[260px] h-[200px] md:h-[250px] lg:h-[300px] object-cover'/>
   <div className='bg-brown_2 rounded-b-md  grid '>
     <p className=' mx-auto text-[14px] md:text-[16px] font-[600] font-frank text-black_1'>{active?.name}</p>
     <p className= ' mx-auto text-[12px] italic md:text-[14px] font-[500] font-frank text-black_1 opacity-70 pb-1'>{active?.title}</p>

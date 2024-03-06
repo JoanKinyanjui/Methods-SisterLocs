@@ -19,7 +19,7 @@ function ReviewSlider() {
                   </div>
                   ))}
                 </div>
-       <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>I had a wonderful experience at Sisterlocks Salon. The staff were friendly and professional, and my hair looks amazing! I highly recommend their services to anyone looking for quality natural hair care.</p>
+       <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>I had a wonderful experience at Methods Sisterlocks Salon. The staff were friendly and professional, and my hair looks amazing! I highly recommend their services to anyone looking for quality natural hair care.</p>
     </div>
   </div> 
   
@@ -36,7 +36,7 @@ function ReviewSlider() {
                   </div>
                   ))}
                 </div>
-       <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>I cannot thank Sisterlocks Salon enough for the incredible transformation they've brought to my hair. From installation to maintenance, they've provided top-notch service. I feel more confident and beautiful than ever!</p>
+       <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>I cannot thank Methods Sisterlocks Salon enough for the incredible transformation they've brought to my hair. From installation to maintenance, they've provided top-notch service. I feel more confident and beautiful than ever!</p>
     </div>
   </div> 
 
@@ -52,7 +52,7 @@ function ReviewSlider() {
                   </div>
                   ))}
                 </div>
-       <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>I've been a loyal client of Sisterlocks Salon for years, and I am consistently impressed by their expertise in styling and caring for my natural hair. The stylists are knowledgeable, and the atmosphere is welcoming. I wouldn't trust anyone else with my hair.</p>
+       <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>I've been a loyal client of Methods Sisterlocks Salon for years, and I am consistently impressed by their expertise in styling and caring for my natural hair. The stylists are knowledgeable, and the atmosphere is welcoming. I wouldn't trust anyone else with my hair.</p>
     </div>
   </div> 
 
@@ -68,7 +68,7 @@ function ReviewSlider() {
                   </div>
                   ))}
                 </div>
-       <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>Starting my healthy hair journey with Sisterlocks Salon was one of the best decisions I've made. They've helped me embrace my natural hair texture and provided invaluable tips for maintaining its health. I've seen remarkable improvement in the condition of my hair since I started coming here</p>
+       <p className='text-center mx-auto px-2 text-[10px] sm:text-[12px] md:text-[14px] text-black_1 my-2 w-full '>Starting my healthy hair journey with Methods Sisterlocks Salon was one of the best decisions I've made. They've helped me embrace my natural hair texture and provided invaluable tips for maintaining its health. I've seen remarkable improvement in the condition of my hair since I started coming here</p>
     </div>
   </div> 
 

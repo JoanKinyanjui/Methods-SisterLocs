@@ -12,28 +12,41 @@ function About() {
     <Title title='About Us'/>
   </div>
 
-  <div className='w-full grid lg:flex items-center'>
+  <div className='w-full grid lg:flex items-center max-h-max '>
 
   <div className='w-full  lg:w-[40%] xl:w-[50%]    grid gap-1 md:pr-10 pr-0 font-[Inter] text-[14px] md:text-[16px]'>
  <p className={`text-black_1 text-[18px] md:text-[24px] font-[700] font-frank md:py-4 `}>Learn A Little About Us</p>
- <p>Established in 2010 by sisterlocks enthusiast Tarasicio Kinyua, Sisterlocks Salon is a haven for natural hair care aficionados. Our salon is not just a place for styling; it's a space where women can celebrate their natural beauty with confidence and pride. Committed to promoting healthy hair, embracing diversity, and providing unparalleled service, Methods Sisterlocks Salon is your trusted partner in your hair care journey.</p>
+ <p>Welcome to Methods Sisterlocks Salon, the premier destination for the artistry of Sisterlocks, founded by the enthusiastic Kinyua Tarah. Here, we celebrate the natural beauty and individuality of every client through the empowering craft of Sisterlocks. Our salon stands as a beacon of natural hair care, where skilled stylists dedicate themselves to the intricacy of Sisterlocks installation, retightening, maintenance, styling, and care. Experience the precision, care, and commitment that define our haven, and join us in the ultimate celebration of your beautiful, natural self. Welcome home to Methods Sisterlocks Salon, your trusted partner on this transformative hair care journey.</p>
 <div className='py-1 md:py-2'>
 <p>We are Specialized in :</p>
  <ul className='list-disc pl-5'>
   <li>Sisterlocks Installation</li>
-  <li>Retightening and Maintenance</li>
+  <li>Retie and Maintenance</li>
   <li>Styling and Care</li>
  </ul>
 </div>
  <Button />
   </div>
 
-  <div className='w-full lg:w-[60%] xl:w-[50%] h-[150px] xs:h-[250px] md:h-[300px] lg:h-[430px]  overflow-hidden flex lg:justify-center lg:items-center  '>
-  <video className="w-full xl:w-[90%] h-full lg:h-[70%] xl:h-[80%] rounded-[5px] bg-[gainsboro] object-cover" autoPlay loop controls >
-    <source src="/videos/salon.mp4" type="video/mp4"  />
+  <div className='w-full lg:w-[60%] xl:w-[50%] h-[360px] lg:h-[560px]  grid  '>
+    <div className='w-full h-[200px] lg:h-[300px] flex'>
+   <div className='w-full flex'>
+      <video className="w-full ] h-full rounded-[5px] bg-black_1 object-contain" autoPlay loop controls >
+    <source src="/videos/sisterlocks.mp4" type="video/mp4"  />
     Your browser does not support the video tag.
   </video>
+    </div>
+   </div>
+   <div className='w-full h-[150px] lg:h-[250px] flex justify-between gap-1'>
+   <div className='w-[50%]  '>
+      <Image src='/images/salon2.jpg' height={300} width={300} alt='img' className=' w-[100%] h-[100%] rounded-[5px]'/>
+    </div>
+    <div className='w-[50%]'>
+    <Image src='/images/team.jpg' height={300} width={300} alt='img' className=' w-[100%] h-[100%] rounded-[5px]'/>
+    </div>
+   </div>
   </div>
+  
 
   </div>
  </Card>
