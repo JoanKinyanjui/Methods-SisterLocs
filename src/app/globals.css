@@ -5,6 +5,7 @@
 body {
   /* font-family: f; */
   background:white;
+  color: #000000B2!important;
 }
 .TextGradient {
   background: linear-gradient(to right, var(--tw-gradient-stops));

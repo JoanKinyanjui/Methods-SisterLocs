@@ -35,7 +35,7 @@ function Nav() {
 
   <div className={` ${show ? 'grid' : 'hidden'}  bg-white z-50  md:hidden absolute top-0 right-0 xxs:w-[60%] xs:w-[50%] sm:w-[40%] grid mt-4  rounded-l-[5px] px-4 pt-2 pb-4 gap-1 max-h-max`}>
    <div className='flex justify-between w-full gap-5 ' onClick={()=>{setShow(!show)}}>
-   <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[15px] font-[700] font-frank ${styles.TextGradient}`}>Methods Sisterlocks</div>
+   <h1 className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[15px] font-[700] font-frank ${styles.TextGradient}`}>Methods Sisterlocks</h1>
    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
   <defs>
     <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">

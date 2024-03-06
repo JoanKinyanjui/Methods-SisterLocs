@@ -10,7 +10,7 @@ function WhatsappIcon() {
         window.location.href = whatsappUrl;
       }}>
         
-      <Image  src='/icons/whatsaap.svg' alt='' height={50} width={50} className='md:w-[70px] md:h-[70px]'/>
+      <Image  src='/icons/whatsaap.svg' alt='whatsapp Icon' height={50} width={50} className='md:w-[70px] md:h-[70px]'/>
     </div>
   )
 }

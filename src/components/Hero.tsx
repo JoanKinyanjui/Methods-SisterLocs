@@ -16,16 +16,23 @@ function Hero() {
   <div className='w-11/12 md:w-[80%] xl:w-[70%] pt-5 md:pt-10 md:py-0 z-30'>
   <div className=' relative grid gap-4 md:gap-0'>
   <div className='flex mx-auto md:mr-0 w-full md:w-1/2 lg:w-[50%] justify-center md:justify-end'>
-    <Image src='/images/background0.png' alt='' width={200} height={150} className='rounded-full  sm:w-[400px] sm:h-[400px] md:w-[100%] xl:w-[90%] md:h-auto flex-shrink-0 flex-grow-0'/>
+    <Image 
+    src='/images/background0.png' 
+     alt='hero img' width={200} height={150}
+     className='rounded-full  sm:w-[400px] sm:h-[400px] md:w-[100%] xl:w-[90%] md:h-auto flex-shrink-0 flex-grow-0'
+     layout='responsive'
+     priority
+     />
+     
   </div>
 
   <div className='grid  w-full md:w-1/2  gap-4 text-center md:text-start  md:absolute md:left-0 md:top-1/2  md:-translate-y-1/2  '>
    <div className='w-[100%] md:w-[100%] xl:w-[110%] grid text-white '>
    <div className='font-[700] mb-3 md:mb-4'>
-   <p className='text-[24px] md:text-[30px] lg:text-[40px] xl:text-[55px] font-frank'>Discover Sisterlocks Installation </p>
-    <p className='text-[24px] md:text-[30px] lg:text-[40px] xl:text-[55px] font-frank'>in Nairobi Kenya</p>
+   <h1 className='text-[24px] md:text-[30px] lg:text-[40px] xl:text-[55px] font-frank'>Discover Sisterlocks Installation </h1>
+    <h1 className='text-[24px] md:text-[30px] lg:text-[40px] xl:text-[55px] font-frank'>in Nairobi Kenya</h1>
    </div>
-    <p className='text-[14px] md:text-[16px] lg:text-[17px] font-[Inter] w-[90%] md:w-[100%] xl:w-[70%] mx-auto md:mx-0'>Experience flawless sisterlocks installation, precision retightening, personalized maintenance, and stunning styling options </p>
+    <h6 className='text-[14px] md:text-[16px] lg:text-[17px] font-[Inter] w-[90%] md:w-[100%] xl:w-[70%] mx-auto md:mx-0'>Experience flawless sisterlocks installation, precision retightening, personalized maintenance, and stunning styling options </h6>
     <div className='mx-auto md:mx-0'><Button /></div>
    </div>
   </div>
