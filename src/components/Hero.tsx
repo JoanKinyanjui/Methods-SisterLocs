@@ -17,7 +17,8 @@ function Hero() {
   <div className=' relative grid gap-4 md:gap-0'>
   <div className='flex mx-auto md:mr-0 w-full md:w-1/2 lg:w-[50%] justify-center md:justify-end'>
     <Image 
-    src='/images/background0.png' 
+    // src='/images/background0.png' 
+    src='/images/redbg.jpg' 
      alt='hero img' width={200} height={150}
      className='rounded-full  sm:w-[400px] sm:h-[400px] md:w-[100%] xl:w-[90%] md:h-auto flex-shrink-0 flex-grow-0'
      layout='responsive'
