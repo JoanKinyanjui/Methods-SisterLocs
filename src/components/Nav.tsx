@@ -9,7 +9,7 @@ function Nav() {
   return (
     <div className='fixed top-0 z-50 bg-white  w-full h-[50px] md:h-[70px]  mx-auto text-[System] grid items-center'>
    <div className=" w-11/12 md:w-[80%] xl:w-[70%] flex justify-between  mx-auto items-center cursor-pointer ">
-   <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[18px] md:text-[24px] font-[700] font-frank ${styles.TextGradient}`}>Methods Sisterlocks</div>
+   <div className={`bg-gradient-to-r from-brown_1 via-[#FFAF00] to-brown_1 text-[18px] md:text-[24px] font-[700] font-frank italic ${styles.TextGradient}`}>Methods Sisterlocks</div>
 
 <div className=''>
   <ul className='md:flex gap-8 hidden text-black_1 opacity-80 md:text-[16px]  font-[600]'>
