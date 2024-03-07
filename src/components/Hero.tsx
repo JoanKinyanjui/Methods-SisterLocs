@@ -20,7 +20,7 @@ function Hero() {
     src='/images/background0.png' 
     // src='/images/redbg.jpg' 
      alt='hero img' width={200} height={150}
-     className='rounded-full w-[200px] h-[150px]  sm:w-[400px] sm:h-[400px] md:w-[100%] xl:w-[90%] md:h-auto flex-shrink-0 flex-grow-0'
+     className='rounded-full w-[200px] h-[auto]  sm:w-[400px] sm:h-[400px] md:w-[100%] xl:w-[90%] md:h-auto flex-shrink-0 flex-grow-0'
      layout='responsive'
      priority
      />
