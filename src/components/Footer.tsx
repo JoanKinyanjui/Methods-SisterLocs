@@ -22,13 +22,13 @@ function Footer() {
 
       <div className='w-full md:w-1/3 grid text-start gap-2 md:gap-3 mx-auto  justify-start md:justify-center md:px-5  '>
         <p className={`${styles.TextGradien} text-white`}>Methods Sisterlocks</p>
-        <p className='text-[12px] md:text-[14px] '>Welcome to Methods Sisterlocks Salon, the premier destination for the artistry of Sisterlocks, founded by the enthusiastic Kinyua Tarah. Our salon stands as a beacon of natural hair care, where skilled stylists dedicate themselves to the intricacy of Sisterlocks installation, retightening, maintenance, styling, and care. It's more than just a salon; it's a space of self-expression and confidence, embracing diversity and promoting healthy hair.Welcome home to Methods Sisterlocks Salon, your trusted partner on this transformative hair care journey</p>
+        <p className='text-[12px] md:text-[14px] '>Welcome to Methods Sisterlocks Salon, the premier destination for the artistry of Sisterlocks, founded by natural hair enthusiast  Kinyua Tarah. Our salon stands as a beacon of natural hair care, where skilled stylists dedicate themselves to the intricacy of Sisterlocks installation, retightening, maintenance, styling, and care. It's more than just a salon; it's a space of self-expression and confidence, embracing diversity and promoting healthy hair.Welcome home to Methods Sisterlocks Salon, your trusted partner on this transformative hair care journey</p>
        <div className='flex items-center gap-2 w-full'>
         <p className=' font-[500] '>Follow us :</p>
         <div className='flex gap-2 flex-shrink-0'>
        <a href='https://www.facebook.com/profile.php?id=6155595093938&mibextid=ZbWKwL'><Image  src='/icons/facebook.png'  width={30} height={30} alt='facebook' className='md:w-[48px] md:h-[48px] '/> </a>
         <a href='https://www.instagram.com/methods_sisterlocks'> <Image  src='/icons/instagram.png'  width={30} height={30} alt='instagram' className=' md:w-[48px] md:h-[48px]'/> </a>
-        <a href='https://www.tiktok.com/methods_sisterlocks'> <Image  src='/icons/tiktok.png'  width={30} height={30} alt='tiktok' className=' md:w-[48px] md:h-[48px]'/> </a>
+        <a href='https://www.tiktok.com/@methods_sisterlocks?_t=8kQjuIjaI3K&_r=1'> <Image  src='/icons/tiktok.png'  width={30} height={30} alt='tiktok' className=' md:w-[48px] md:h-[48px]'/> </a>
         </div>
        </div>
       </div>
