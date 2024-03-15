@@ -18,7 +18,7 @@ function Services() {
 
 <div className="carousel carousel-center w-full py-8 space-x-4  rounded-box">
 {services.map((item)=>(
-  <div className="carousel-item  w-[200px] md:w-[300px] h-[280px] md:h-[400px] relative" key={item.id}>
+  <div className="carousel-item  w-[180px] md:w-[300px] h-[260px] md:h-[400px] relative" key={item.id}>
   <img src={item.image} className="rounded-md h-full w-full "  alt='service'/>
   <div className="absolute inset-0 rounded-md" style={{ backgroundImage: 'linear-gradient(to top, black,transparent,transparent)' }}></div>
   <div className='absolute bottom-0 px-2 py-1'>
