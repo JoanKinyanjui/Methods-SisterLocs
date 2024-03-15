@@ -31,7 +31,7 @@ function About() {
   <div className='w-full sm:w-[80%] lg:w-[60%] xl:w-[50%] h-[310px] lg:h-[510px]  grid mx-auto '>
   <div className='w-full h-[150px] lg:h-[250px] flex justify-between gap-1'>
    <div className='w-[50%]  '>
-      <Image src='/images/logo.jpg' height={300} width={300} alt='img' className=' w-[100%] h-[100%] rounded-[5px]'/>
+      <Image src='/images/delivery.jpg' height={300} width={300} alt='img' className=' w-[100%] h-[100%] rounded-[5px]'/>
     </div>
     <div className='w-[50%] flex'>
       <video className="w-full  h-full rounded-[5px] bg-black_1 object-contain"  autoPlay loop controls muted playsInline >
