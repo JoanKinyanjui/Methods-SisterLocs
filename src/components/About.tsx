@@ -28,21 +28,25 @@ function About() {
  <Button />
   </div>
 
-  <div className='w-full lg:w-[60%] xl:w-[50%] h-[360px] lg:h-[560px]  grid  '>
-    <div className='w-full h-[200px] lg:h-[300px] flex'>
-   <div className='w-full flex'>
-      <video className="w-full ] h-full rounded-[5px] bg-black_1 object-contain"  autoPlay loop controls muted playsInline >
+  <div className='w-full sm:w-[80%] lg:w-[60%] xl:w-[50%] h-[310px] lg:h-[510px]  grid mx-auto '>
+  <div className='w-full h-[150px] lg:h-[250px] flex justify-between gap-1'>
+   <div className='w-[50%]  '>
+      <Image src='/images/logo.jpg' height={300} width={300} alt='img' className=' w-[100%] h-[100%] rounded-[5px]'/>
+    </div>
+    <div className='w-[50%] flex'>
+      <video className="w-full  h-full rounded-[5px] bg-black_1 object-contain"  autoPlay loop controls muted playsInline >
     <source src="/videos/sisterlocs.MP4" type="video/mp4"  />
     Your browser does not support the video tag.
   </video>
     </div>
    </div>
+
    <div className='w-full h-[150px] lg:h-[250px] flex justify-between gap-1'>
    <div className='w-[50%]  '>
-      <Image src='/images/salon2.jpg' height={300} width={300} alt='img' className=' w-[100%] h-[100%] rounded-[5px]'/>
+      <Image src='/images/group.jpg' height={300} width={300} alt='img' className=' w-[100%] h-[100%] rounded-[5px]'/>
     </div>
     <div className='w-[50%]'>
-    <Image src='/images/team.jpg' height={300} width={300} alt='img' className=' w-[100%] h-[100%] rounded-[5px]'/>
+    <Image src='/images/delivery2.jpg' height={300} width={300} alt='img' className=' w-[100%] h-[100%] rounded-[5px]'/>
     </div>
    </div>
   </div>

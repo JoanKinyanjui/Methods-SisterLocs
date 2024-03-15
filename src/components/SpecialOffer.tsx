@@ -16,7 +16,7 @@ function SpecialOffer() {
           <div className='grid md:flex md:items-center gap-2 md:gap-4 px-4 w-[100%] md:w-[80%] xl:w-[70%] mx-auto z-40 '>
             <div><Image src='/images/background1.png' alt='special offer' width={150} height={150} className='sm:w-[450px] sm:h-auto md:w-[600px] md:h-auto rounded-full mx-auto md:mx-0' /></div>
            <div>
-   <div className='w-[100%] sm:w-[90%] md:w-[100%] '>
+   <div className='w-[100%] sm:w-[90%] md:w-[100%]  mx-auto'>
    <p className='text-center md:text-start mx-auto font-thin text-[18px] md:text-[20px] text-white uppercase'>Special Offer </p>
             <p className={`${styles.TextGradient} py-2 text-center md:text-start mx-auto font-[700] text-[24px] md:text-[30px]  bg-gradient-to-r from-brown_1  via-[#FFAF00]  to-[#FFAF00]`}>50% OFF</p>
             <p className='w-[90%] md:w-[100%]  text-center md:text-start mx-auto text-[12px] md:text-[14px] text-white font-[400]'>We're thrilled to announce an incredible opportunity for our valued customers to embrace the elegance and versatility of sisterlocks! For a limited time only, we're offering a whopping 50% discount on all sisterlocks installations. This is your chance to transform your hair with this unique and stylish solution at half the price!</p>
