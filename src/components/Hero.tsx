@@ -27,7 +27,7 @@ function Hero() {
      
   </div> */}
 
-  <div className='grid  w-full md:w-3/4 xl:w-1/2  gap-4 text-center md:text-start  absolute md:left-0 top-3/4 -translate-y-3/4 md:top-1/2  md:-translate-y-1/2  '>
+  <div className='grid  w-full md:w-3/4   gap-4 text-center md:text-start  absolute md:left-0 top-3/4 -translate-y-3/4 md:top-1/2  md:-translate-y-1/2  '>
    <div className='w-[100%] md:w-[100%] xl:w-[110%] grid text-white '>
    <div className='font-[700] mb-3 md:mb-4'>
    <h1 className='text-[24px] md:text-[30px] lg:text-[40px] xl:text-[55px] font-frank'>Discover Sisterlocks Installation </h1>
