@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="description" content="Sisterlocs Salon in Nairobi, Kenya" />
         <meta name="keywords" content="sisterlocs, salon, nairobi , Kenya" />
         <meta name="author" content="Methods Sisterlocs" />
-        <meta property="og:title" content="Your Site Title - Elevate Your Web Experience" />
+        <meta property="og:title" content="Methods Sisterlocks - Elevate Your Web Experience" />
         <meta property="og:description" content="Explore the world of possibilities with us. Learn more about our services and products." />
         <meta property="og:image" content="URL-to-your-image-for-social-sharing.jpg" />
         <meta property="og:url" content="URL-to-your-site-page" />
