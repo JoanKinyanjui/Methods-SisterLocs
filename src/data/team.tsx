@@ -24,7 +24,7 @@ export const team:TeamProps[] =[
         id:3,
         name: "Sarah",
         image:'/images/sarah.jpg',
-        title: "Salon ass/Nail Tech",
+        title: "Salon Assistant/Nail Tech",
 
     },
     {
