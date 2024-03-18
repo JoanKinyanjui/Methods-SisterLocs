@@ -15,9 +15,9 @@ export const team:TeamProps[] =[
     },
     {
         id:2,
-        name: "Agie",
+        name: "Aggie",
         image:'/images/agie-manager.jpg',
-        title: "Manager",
+        title: "Salon Manager",
 
     },
     {
