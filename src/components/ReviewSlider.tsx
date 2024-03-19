@@ -9,13 +9,13 @@ function ReviewSlider() {
     
   <div id="item1" className="carousel-item w-full  grid justify-center">
     <div className='grid w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] mx-auto md:gap-1'>
-    <Image src="https://i.pinimg.com/474x/3e/75/ea/3e75ea1eced5809aa745d0ce8c6ca7c9.jpg" alt="profile" width={70} height={70} className='mx-auto rounded-[1000px] w-[80px] h-[80px] md:w-[100px] md:h-[100px]'/>
+    <Image src="https://i.pinimg.com/474x/3e/75/ea/3e75ea1eced5809aa745d0ce8c6ca7c9.jpg" alt="sisterlocks in nairobi" width={70} height={70} className='mx-auto rounded-[1000px] w-[80px] h-[80px] md:w-[100px] md:h-[100px]'/>
     <p className='mx-auto text-[15px] font-semibold text-black_1 opacity-85'>Rebecca Mwangi</p>
     <p className='mx-auto font-light text-[13px] md:text-[14px]'>Business Woman</p>
       <div className='flex gap-1 mx-auto'>
       {Array.from({ length: 5 }, (_, i) => (
   <div key={i} className='w-[15px] h-[15px]'> {/* key moved here */}
-    <Image src="/icons/star.png" alt="star" width={15} height={15} className='w-[15px] h-[15px]'/>
+    <Image src="/icons/star.png" alt="top rated sisterlocks salon in nairobi" width={15} height={15} className='w-[15px] h-[15px]'/>
   </div>
 ))}
                 </div>
@@ -26,13 +26,13 @@ function ReviewSlider() {
 
   <div id="item2" className="carousel-item w-full  grid justify-center">
     <div className='grid w-[80%] sm:w-[60%] md:w-[50%] lg:w-[40%] mx-auto md:gap-1'>
-    <Image src="https://i.pinimg.com/474x/e5/f0/4c/e5f04c48228c03b8fb7d695a827ef058.jpg" alt="profile" width={70} height={70} className='mx-auto rounded-[1000px] w-[80px] h-[80px] md:w-[100px] md:h-[100px]'/>
+    <Image src="https://i.pinimg.com/474x/e5/f0/4c/e5f04c48228c03b8fb7d695a827ef058.jpg" alt="sisterlocks in nairobi" width={70} height={70} className='mx-auto rounded-[1000px] w-[80px] h-[80px] md:w-[100px] md:h-[100px]'/>
     <p className='mx-auto text-[15px] font-semibold text-black_1 opacity-85'>Stella Wanjiru</p>
     <p className='mx-auto font-light text-[13px] md:text-[14px]'>Doctor</p>
       <div className='flex gap-1 mx-auto'>
      {Array.from({ length: 5 }, (_, i) => (
   <div key={i} className='w-[15px] h-[15px]'> {/* key moved here */}
-    <Image src="/icons/star.png" alt="star" width={15} height={15} className='w-[15px] h-[15px]'/>
+    <Image src="/icons/star.png" alt="top rated sisterlocks salon in nairobi" width={15} height={15} className='w-[15px] h-[15px]'/>
   </div>
 ))}
 
@@ -49,7 +49,7 @@ function ReviewSlider() {
       <div className='flex gap-1 mx-auto'>
      {Array.from({ length: 5 }, (_, i) => (
   <div key={i} className='w-[15px] h-[15px]'> {/* key moved here */}
-    <Image src="/icons/star.png" alt="star" width={15} height={15} className='w-[15px] h-[15px]'/>
+    <Image src="/icons/star.png" alt="top rated sisterlocks salon in nairobi" width={15} height={15} className='w-[15px] h-[15px]'/>
   </div>
 ))}
 
@@ -66,7 +66,7 @@ function ReviewSlider() {
       <div className='flex gap-1 mx-auto'>
      {Array.from({ length: 5 }, (_, i) => (
   <div key={i} className='w-[15px] h-[15px]'> {/* key moved here */}
-    <Image src="/icons/star.png" alt="star" width={15} height={15} className='w-[15px] h-[15px]'/>
+    <Image src="/icons/star.png" alt="top rated sisterlocks salon in nairobi" width={15} height={15} className='w-[15px] h-[15px]'/>
   </div>
 ))}
 
@@ -83,7 +83,7 @@ function ReviewSlider() {
       <div className='flex gap-1 mx-auto'>
                {Array.from({ length: 5 }, (_, i) => (
   <div key={i} className='w-[15px] h-[15px]'> {/* key moved here */}
-    <Image src="/icons/star.png" alt="star" width={15} height={15} className='w-[15px] h-[15px]'/>
+    <Image src="/icons/star.png" alt="top rated sisterlocks salon in nairobi" width={15} height={15} className='w-[15px] h-[15px]'/>
   </div>
 ))}
 

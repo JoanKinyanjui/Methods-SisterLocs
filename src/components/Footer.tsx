@@ -26,9 +26,9 @@ function Footer() {
        <div className='flex items-center gap-2 w-full'>
         <p className=' font-[500] '>Follow us :</p>
         <div className='flex gap-2 flex-shrink-0'>
-       <a href='https://www.facebook.com/profile.php?id=6155595093938&mibextid=ZbWKwL'><Image  src='/icons/facebook.png'  width={30} height={30} alt='facebook' className='md:w-[48px] md:h-[48px] '/> </a>
-        <a href='https://www.instagram.com/methods_sisterlocks'> <Image  src='/icons/instagram.png'  width={30} height={30} alt='instagram' className=' md:w-[48px] md:h-[48px]'/> </a>
-        <a href='https://www.tiktok.com/@methods_sisterlocks?_t=8kQjuIjaI3K&_r=1'> <Image  src='/icons/tiktok.png'  width={30} height={30} alt='tiktok' className=' md:w-[48px] md:h-[48px]'/> </a>
+       <a href='https://www.facebook.com/profile.php?id=6155595093938&mibextid=ZbWKwL'><Image  src='/icons/facebook.png'  width={30} height={30} alt='sisterlocks facebook' className='md:w-[48px] md:h-[48px] '/> </a>
+        <a href='https://www.instagram.com/methods_sisterlocks'> <Image  src='/icons/instagram.png'  width={30} height={30} alt='sisterlocks instagram' className=' md:w-[48px] md:h-[48px]'/> </a>
+        <a href='https://www.tiktok.com/@methods_sisterlocks?_t=8kQjuIjaI3K&_r=1'> <Image  src='/icons/tiktok.png'  width={30} height={30} alt='sisterlocks tiktok' className=' md:w-[48px] md:h-[48px]'/> </a>
         </div>
        </div>
       </div>

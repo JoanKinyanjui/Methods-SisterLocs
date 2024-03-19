@@ -14,7 +14,7 @@ function SpecialOffer() {
         <div className="bg-fixed bg-left-bottom bg-cover  h-full w-full grid items-center justify-center py-10 md:py-20" style={{backgroundImage:"url('/images/background2.jpg')"}} >
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-brown_1 bg-opacity-10  "></div>
           <div className='grid md:flex md:items-center gap-2 md:gap-4 px-4 w-[100%] md:w-[80%] xl:w-[70%] mx-auto z-40 '>
-            <div><Image src='/images/background1.png' alt='special offer' width={150} height={150} className='sm:w-[450px] sm:h-auto md:w-[600px] md:h-auto rounded-full mx-auto md:mx-0' /></div>
+            <div><Image src='/images/background1.png' alt='special offer on sisterlocks' width={150} height={150} className='sm:w-[450px] sm:h-auto md:w-[600px] md:h-auto rounded-full mx-auto md:mx-0' /></div>
            <div>
    <div className='w-[100%] sm:w-[90%] md:w-[100%]  mx-auto'>
    <p className='text-center md:text-start mx-auto font-thin text-[18px] md:text-[20px] text-white uppercase'>Special Offer </p>
