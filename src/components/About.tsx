@@ -16,7 +16,7 @@ function About() {
 
   <div className='w-full  lg:w-[40%] xl:w-[50%]    grid gap-1 md:pr-10 pr-0 font-[Inter] text-[14px] md:text-[16px]'>
  <p className={`text-black_1 text-[18px] md:text-[24px] font-[700] font-frank md:py-4 `}>Learn A Little About Us</p>
- <p>Welcome to Methods Sisterlocks Salon, the premier destination for the artistry of Sisterlocks, founded by natural hair enthusiast Kinyua Tarah. Here, we celebrate the natural beauty and individuality of every client through the empowering craft of Sisterlocks. Our salon stands as a beacon of natural hair care, where skilled stylists dedicate themselves to the intricacy of Sisterlocks installation, retightening, maintenance, styling, and care. Experience the precision, care, and commitment that define our haven, and join us in the ultimate celebration of your beautiful, natural self. Welcome home to Methods Sisterlocks Salon, your trusted partner on this transformative hair care journey.</p>
+ <p>Welcome to Methods Sisterlocks Salon in Nairobi Kenya, founded by natural hair enthusiast Kinyua Tarah. Here, we celebrate the natural beauty and individuality of every client through the empowering craft of Sisterlocks. Our salon stands as a beacon of natural hair care, where skilled stylists dedicate themselves to the intricacy of Sisterlocks installation, retightening, maintenance, styling, and care. Experience the precision, care, and commitment that define our haven, and join us in the ultimate celebration of your beautiful, natural self. Welcome home to Methods Sisterlocks Salon, your trusted partner on this transformative hair care journey.</p>
 <div className='py-1 md:py-2'>
 <p>We are Specialized in :</p>
  <ul className='list-disc pl-5'>
