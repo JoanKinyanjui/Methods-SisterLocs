@@ -28,7 +28,8 @@ export default function Home() {
         <meta name="twitter:title" content="Your Site Title - Elevate Your Web Experience" />
         <meta name="twitter:description" content="Explore the world of possibilities with us. Learn more about our services and products." />
         <meta name="twitter:image" content="URL-to-your-image-for-twitter.jpg" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico"  type="image/x-icon"/>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/png"/>
         <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&display=swap" rel="stylesheet" />
   </Head>
   <section><Nav /></section>
@@ -38,11 +39,11 @@ export default function Home() {
   <section className="my-5 md:my-[50px]" ><SpecialOffer /></section>
   <section className="my-5 md:my-[50px]" id='Team'><ProffessionalTeam /></section>
   <section className="my-5 md:my-[50px]" id='Reviews'><Reviews /></section>
-   <section className="md:my-5"><StatsJumbotron /></section>
-   <section className="mt-5 md:mt-[50px]"> <Footer /> </section>
-   <div className="fixed bottom-0 right-0 mr-4 mb-4">
-        <WhatsappIcon />
-      </div>
+  <section className="md:my-5"><StatsJumbotron /></section>
+  <section className="mt-5 md:mt-[50px]"> <Footer /> </section>
+  <div className="fixed bottom-0 right-0 mr-4 mb-4">
+        <WhatsappIcon  />
+  </div>
 </div>
   );
 }
